@@ -1,0 +1,80 @@
+name: Deploy GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+
+      - name: Build site and generate file list
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import json
+          import shutil
+
+          source = Path(".")
+          results = source / "stream_learner_results"
+          site = source / "_site"
+          site_results = site / "stream_learner_results"
+
+          if site.exists():
+              shutil.rmtree(site)
+
+          site_results.mkdir(parents=True)
+
+          for name in ("index.html", "app.js", "style.css"):
+              shutil.copy2(source / name, site / name)
+
+          txt_files = sorted(results.glob("*.txt"))
+
+          for file in txt_files:
+              shutil.copy2(file, site_results / file.name)
+
+          manifest = {
+              "files": [file.name for file in txt_files]
+          }
+
+          (site_results / "files.json").write_text(
+              json.dumps(manifest, indent=2),
+              encoding="utf-8"
+          )
+
+          print("Found result files:")
+          for file in txt_files:
+              print(file.name)
+          PY
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: _site
+
+      - name: Deploy GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

@@ -3,3 +3,6 @@ venv/
 *.xlsx
 *.xml
 *.idea
+data
+stream_learning
+sohot
