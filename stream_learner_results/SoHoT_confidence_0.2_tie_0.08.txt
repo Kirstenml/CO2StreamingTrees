@@ -1,0 +1,1017 @@
+========================================
+Date: 2013-09-20 00:00:00
+========================================
+
+Leaf
+  Class distribution: {class 0: 0.463, class 1: 0.537}
+  Predicted class: 1
+  P(x->leaf): 1.000
+
+Accuracy: 75.0
+
+========================================
+Date: 2014-02-07 00:00:00
+========================================
+
+Leaf
+  Class distribution: {class 0: 0.454, class 1: 0.546}
+  Predicted class: 1
+  P(x->leaf): 1.000
+
+Accuracy: 62.5
+
+========================================
+Date: 2014-06-27 00:00:00
+========================================
+
+Leaf
+  Class distribution: {class 0: 0.447, class 1: 0.553}
+  Predicted class: 1
+  P(x->leaf): 1.000
+
+Accuracy: 60.0
+
+========================================
+Date: 2014-11-14 00:00:00
+========================================
+
+Leaf
+  Class distribution: {class 0: 0.436, class 1: 0.564}
+  Predicted class: 1
+  P(x->leaf): 1.000
+
+Accuracy: 60.0
+
+========================================
+Date: 2015-04-03 00:00:00
+========================================
+
+Leaf
+  Class distribution: {class 0: 0.426, class 1: 0.574}
+  Predicted class: 1
+  P(x->leaf): 1.000
+
+Accuracy: 59.0
+
+========================================
+Date: 2015-08-21 00:00:00
+========================================
+
+Leaf
+  Class distribution: {class 0: 0.408, class 1: 0.592}
+  Predicted class: 1
+  P(x->leaf): 1.000
+
+Accuracy: 60.0
+
+========================================
+Date: 2016-01-08 00:00:00
+========================================
+
+Split test: geopolitical_risk_threats_mean_lag1 > 179.57
+Feature importance:
+  n/a
+LEFT:
+  Leaf
+    Class distribution: {class 0: 0.509, class 1: 0.491}
+    Predicted class: 0
+    P(x->leaf): 0.742
+RIGHT:
+  Leaf
+    Class distribution: {class 0: 0.526, class 1: 0.474}
+    Predicted class: 0
+    P(x->leaf): 0.258
+
+Accuracy: 59.285714285714285
+
+========================================
+Date: 2016-05-27 00:00:00
+========================================
+
+Split test: geopolitical_risk_threats_mean_lag1 > 177.05
+Feature importance:
+  n/a
+LEFT:
+  Leaf
+    Class distribution: {class 0: 0.517, class 1: 0.483}
+    Predicted class: 0
+    P(x->leaf): 0.700
+RIGHT:
+  Leaf
+    Class distribution: {class 0: 0.549, class 1: 0.451}
+    Predicted class: 0
+    P(x->leaf): 0.300
+
+Accuracy: 58.75
+
+========================================
+Date: 2016-10-14 00:00:00
+========================================
+
+Split test: geopolitical_risk_threats_mean_lag1 > 173.31
+Feature importance:
+  n/a
+LEFT:
+  Leaf
+    Class distribution: {class 0: 0.518, class 1: 0.482}
+    Predicted class: 0
+    P(x->leaf): 0.700
+RIGHT:
+  Leaf
+    Class distribution: {class 0: 0.552, class 1: 0.448}
+    Predicted class: 0
+    P(x->leaf): 0.300
+
+Accuracy: 57.22222222222222
+
+========================================
+Date: 2017-03-03 00:00:00
+========================================
+
+Split test: geopolitical_risk_threats_mean_lag1 > 172.58
+Feature importance:
+  global_sustainability_uncertainty_mean_lag2: 0.027
+LEFT:
+  Leaf
+    Class distribution: {class 0: 0.511, class 1: 0.489}
+    Predicted class: 0
+    P(x->leaf): 0.795
+RIGHT:
+  Leaf
+    Class distribution: {class 0: 0.546, class 1: 0.454}
+    Predicted class: 0
+    P(x->leaf): 0.205
+
+Accuracy: 56.99999999999999
+
+========================================
+Date: 2017-07-21 00:00:00
+========================================
+
+Split test: geopolitical_risk_threats_mean_lag1 > 175.94
+Feature importance:
+  sp500_mean_lag2: 0.026
+LEFT:
+  Leaf
+    Class distribution: {class 0: 0.526, class 1: 0.474}
+    Predicted class: 0
+    P(x->leaf): 0.000
+RIGHT:
+  Leaf
+    Class distribution: {class 0: 0.563, class 1: 0.437}
+    Predicted class: 0
+    P(x->leaf): 1.000
+
+Accuracy: 57.27272727272727
+
+========================================
+Date: 2017-12-08 00:00:00
+========================================
+
+Split test: geopolitical_risk_threats_mean_lag1 > 180.52
+Feature importance:
+  sp500_mean_lag1: 0.028
+  sp500_mean_lag2: 0.030
+  attention_to_energy_price_mean_lag2: 0.038
+LEFT:
+  Leaf
+    Class distribution: {class 0: 0.494, class 1: 0.506}
+    Predicted class: 1
+    P(x->leaf): 0.780
+RIGHT:
+  Leaf
+    Class distribution: {class 0: 0.544, class 1: 0.456}
+    Predicted class: 0
+    P(x->leaf): 0.220
+
+Accuracy: 55.00000000000001
+
+========================================
+Date: 2018-04-27 00:00:00
+========================================
+
+Split test: geopolitical_risk_threats_mean_lag1 > 181.78
+Feature importance:
+  n/a
+LEFT:
+  Leaf
+    Class distribution: {class 0: 0.465, class 1: 0.535}
+    Predicted class: 1
+    P(x->leaf): 0.999
+RIGHT:
+  Leaf
+    Class distribution: {class 0: 0.525, class 1: 0.475}
+    Predicted class: 0
+    P(x->leaf): 0.001
+
+Accuracy: 54.61538461538461
+
+========================================
+Date: 2018-09-14 00:00:00
+========================================
+
+Split test: geopolitical_risk_threats_mean_lag1 > 191.22
+Feature importance:
+  natural_gas_price_mean_lag1: 0.040
+  natural_gas_price_mean_lag2: 0.035
+  low_carbon_energy_etf_mean_lag1: 0.026
+LEFT:
+  Split test: global_epu_mean_lag1 > 241.12
+  Feature importance:
+    sp500_mean_lag1: 0.026
+  LEFT:
+    Leaf
+      Class distribution: {class 0: 0.449, class 1: 0.551}
+      Predicted class: 1
+      P(x->leaf): 1.000
+  RIGHT:
+    Leaf
+      Class distribution: {class 0: 0.471, class 1: 0.529}
+      Predicted class: 1
+      P(x->leaf): 0.000
+RIGHT:
+  Leaf
+    Class distribution: {class 0: 0.464, class 1: 0.536}
+    Predicted class: 1
+    P(x->leaf): 0.000
+
+Accuracy: 55.35714285714286
+
+========================================
+Date: 2019-02-01 00:00:00
+========================================
+
+Split test: geopolitical_risk_threats_mean_lag1 > 189.93
+Feature importance:
+  attention_to_energy_price_mean_lag1: 0.035
+LEFT:
+  Split test: global_epu_mean_lag1 > 258.53
+  Feature importance:
+    global_epu_mean_lag1: 0.031
+    global_epu_mean_lag2: 0.032
+  LEFT:
+    Leaf
+      Class distribution: {class 0: 0.420, class 1: 0.580}
+      Predicted class: 1
+      P(x->leaf): 0.958
+  RIGHT:
+    Leaf
+      Class distribution: {class 0: 0.427, class 1: 0.573}
+      Predicted class: 1
+      P(x->leaf): 0.000
+RIGHT:
+  Leaf
+    Class distribution: {class 0: 0.440, class 1: 0.560}
+    Predicted class: 1
+    P(x->leaf): 0.042
+
+Accuracy: 55.666666666666664
+
+========================================
+Date: 2019-06-21 00:00:00
+========================================
+
+Split test: geopolitical_risk_threats_mean_lag1 > 190.63
+Feature importance:
+  natural_gas_price_mean_lag1: 0.029
+  natural_gas_price_mean_lag2: 0.030
+LEFT:
+  Split test: global_epu_mean_lag1 > 273.08
+  Feature importance:
+    global_epu_mean_lag1: 0.051
+  LEFT:
+    Leaf
+      Class distribution: {class 0: 0.410, class 1: 0.590}
+      Predicted class: 1
+      P(x->leaf): 0.300
+  RIGHT:
+    Leaf
+      Class distribution: {class 0: 0.407, class 1: 0.593}
+      Predicted class: 1
+      P(x->leaf): 0.700
+RIGHT:
+  Leaf
+    Class distribution: {class 0: 0.459, class 1: 0.541}
+    Predicted class: 1
+    P(x->leaf): 0.000
+
+Accuracy: 55.625
+
+========================================
+Date: 2019-11-08 00:00:00
+========================================
+
+Split test: geopolitical_risk_threats_mean_lag1 > 192.10
+Feature importance:
+  low_carbon_energy_etf_mean_lag1: 0.035
+  low_carbon_energy_etf_mean_lag2: 0.026
+LEFT:
+  Split test: global_epu_mean_lag1 > 294.77
+  Feature importance:
+    n/a
+  LEFT:
+    Leaf
+      Class distribution: {class 0: 0.414, class 1: 0.586}
+      Predicted class: 1
+      P(x->leaf): 1.000
+  RIGHT:
+    Leaf
+      Class distribution: {class 0: 0.374, class 1: 0.626}
+      Predicted class: 1
+      P(x->leaf): 0.000
+RIGHT:
+  Leaf
+    Class distribution: {class 0: 0.466, class 1: 0.534}
+    Predicted class: 1
+    P(x->leaf): 0.000
+
+Accuracy: 55.294117647058826
+
+========================================
+Date: 2020-03-27 00:00:00
+========================================
+
+Split test: geopolitical_risk_threats_mean_lag1 > 195.52
+Feature importance:
+  low_carbon_energy_etf_mean_lag2: 0.039
+LEFT:
+  Split test: global_epu_mean_lag1 > 304.27
+  Feature importance:
+    global_epu_mean_lag1: 0.028
+    global_epu_mean_lag2: 0.029
+  LEFT:
+    Leaf
+      Class distribution: {class 0: 0.434, class 1: 0.566}
+      Predicted class: 1
+      P(x->leaf): 0.300
+  RIGHT:
+    Leaf
+      Class distribution: {class 0: 0.375, class 1: 0.625}
+      Predicted class: 1
+      P(x->leaf): 0.700
+RIGHT:
+  Leaf
+    Class distribution: {class 0: 0.464, class 1: 0.536}
+    Predicted class: 1
+    P(x->leaf): 0.000
+
+Accuracy: 54.44444444444444
+
+========================================
+Date: 2020-08-14 00:00:00
+========================================
+
+Split test: geopolitical_risk_threats_mean_lag1 > 193.48
+Feature importance:
+  low_carbon_energy_etf_mean_lag1: 0.048
+  low_carbon_energy_etf_mean_lag2: 0.053
+LEFT:
+  Split test: global_epu_mean_lag1 > 345.95
+  Feature importance:
+    low_carbon_energy_etf_mean_lag1: 0.030
+  LEFT:
+    Leaf
+      Class distribution: {class 0: 0.440, class 1: 0.560}
+      Predicted class: 1
+      P(x->leaf): 1.000
+  RIGHT:
+    Leaf
+      Class distribution: {class 0: 0.379, class 1: 0.621}
+      Predicted class: 1
+      P(x->leaf): 0.000
+RIGHT:
+  Leaf
+    Class distribution: {class 0: 0.459, class 1: 0.541}
+    Predicted class: 1
+    P(x->leaf): 0.000
+
+Accuracy: 54.736842105263165
+
+========================================
+Date: 2021-01-01 00:00:00
+========================================
+
+Split test: geopolitical_risk_threats_mean_lag1 > 191.57
+Feature importance:
+  low_carbon_energy_etf_mean_lag1: 0.061
+  low_carbon_energy_etf_mean_lag2: 0.067
+LEFT:
+  Split test: global_epu_mean_lag1 > 371.76
+  Feature importance:
+    clean_energy_etf_wilderhill_mean_lag1: 0.032
+    clean_energy_etf_wilderhill_mean_lag2: 0.032
+    low_carbon_energy_etf_mean_lag1: 0.043
+    low_carbon_energy_etf_mean_lag2: 0.026
+  LEFT:
+    Leaf
+      Class distribution: {class 0: 0.448, class 1: 0.552}
+      Predicted class: 1
+      P(x->leaf): 1.000
+  RIGHT:
+    Leaf
+      Class distribution: {class 0: 0.359, class 1: 0.641}
+      Predicted class: 1
+      P(x->leaf): 0.000
+RIGHT:
+  Leaf
+    Class distribution: {class 0: 0.458, class 1: 0.542}
+    Predicted class: 1
+    P(x->leaf): 0.000
+
+Accuracy: 55.00000000000001
+
+========================================
+Date: 2021-05-21 00:00:00
+========================================
+
+Split test: geopolitical_risk_threats_mean_lag1 > 190.45
+Feature importance:
+  sp500_mean_lag2: 0.025
+  low_carbon_energy_etf_mean_lag1: 0.047
+  low_carbon_energy_etf_mean_lag2: 0.060
+LEFT:
+  Split test: global_epu_mean_lag1 > 372.31
+  Feature importance:
+    clean_energy_etf_wilderhill_mean_lag2: 0.029
+  LEFT:
+    Split test: attention_to_extreme_events_mean_lag2 > 0.96
+    Feature importance:
+      n/a
+    LEFT:
+      Leaf
+        Class distribution: {class 0: 0.503, class 1: 0.497}
+        Predicted class: 0
+        P(x->leaf): 0.084
+    RIGHT:
+      Leaf
+        Class distribution: {class 0: 0.514, class 1: 0.486}
+        Predicted class: 0
+        P(x->leaf): 0.616
+  RIGHT:
+    Leaf
+      Class distribution: {class 0: 0.334, class 1: 0.666}
+      Predicted class: 1
+      P(x->leaf): 0.300
+RIGHT:
+  Leaf
+    Class distribution: {class 0: 0.458, class 1: 0.542}
+    Predicted class: 1
+    P(x->leaf): 0.000
+
+Accuracy: 55.23809523809524
+
+========================================
+Date: 2021-10-08 00:00:00
+========================================
+
+Split test: geopolitical_risk_threats_mean_lag1 > 189.79
+Feature importance:
+  natural_gas_price_mean_lag1: 0.034
+  natural_gas_price_mean_lag2: 0.036
+  low_carbon_energy_etf_mean_lag1: 0.029
+  low_carbon_energy_etf_mean_lag2: 0.034
+LEFT:
+  Split test: global_epu_mean_lag1 > 368.74
+  Feature importance:
+    natural_gas_price_mean_lag1: 0.036
+    natural_gas_price_mean_lag2: 0.043
+  LEFT:
+    Split test: attention_to_extreme_events_mean_lag2 > 1.01
+    Feature importance:
+      natural_gas_price_mean_lag1: 0.062
+      natural_gas_price_mean_lag2: 0.053
+    LEFT:
+      Leaf
+        Class distribution: {class 0: 0.486, class 1: 0.514}
+        Predicted class: 1
+        P(x->leaf): 0.700
+    RIGHT:
+      Leaf
+        Class distribution: {class 0: 0.505, class 1: 0.495}
+        Predicted class: 0
+        P(x->leaf): 0.300
+  RIGHT:
+    Leaf
+      Class distribution: {class 0: 0.337, class 1: 0.663}
+      Predicted class: 1
+      P(x->leaf): 0.000
+RIGHT:
+  Leaf
+    Class distribution: {class 0: 0.435, class 1: 0.565}
+    Predicted class: 1
+    P(x->leaf): 0.000
+
+Accuracy: 54.77272727272727
+
+========================================
+Date: 2022-02-25 00:00:00
+========================================
+
+Split test: geopolitical_risk_threats_mean_lag1 > 196.82
+Feature importance:
+  low_carbon_energy_etf_mean_lag2: 0.026
+LEFT:
+  Split test: global_epu_mean_lag1 > 368.17
+  Feature importance:
+    natural_gas_price_mean_lag2: 0.031
+    geopolitical_risk_threats_mean_lag2: 0.037
+  LEFT:
+    Split test: attention_to_extreme_events_mean_lag2 > 1.07
+    Feature importance:
+      natural_gas_price_mean_lag1: 0.034
+      natural_gas_price_mean_lag2: 0.035
+    LEFT:
+      Leaf
+        Class distribution: {class 0: 0.452, class 1: 0.548}
+        Predicted class: 1
+        P(x->leaf): 0.222
+    RIGHT:
+      Leaf
+        Class distribution: {class 0: 0.505, class 1: 0.495}
+        Predicted class: 0
+        P(x->leaf): 0.078
+  RIGHT:
+    Leaf
+      Class distribution: {class 0: 0.338, class 1: 0.662}
+      Predicted class: 1
+      P(x->leaf): 0.000
+RIGHT:
+  Leaf
+    Class distribution: {class 0: 0.431, class 1: 0.569}
+    Predicted class: 1
+    P(x->leaf): 0.700
+
+Accuracy: 55.65217391304348
+
+========================================
+Date: 2022-07-15 00:00:00
+========================================
+
+Split test: geopolitical_risk_threats_mean_lag1 > 235.47
+Feature importance:
+  n/a
+LEFT:
+  Split test: global_epu_mean_lag1 > 373.50
+  Feature importance:
+    global_sustainability_uncertainty_mean_lag1: 0.025
+  LEFT:
+    Split test: attention_to_extreme_events_mean_lag2 > 1.05
+    Feature importance:
+      natural_gas_price_mean_lag1: 0.035
+      natural_gas_price_mean_lag2: 0.032
+    LEFT:
+      Leaf
+        Class distribution: {class 0: 0.458, class 1: 0.542}
+        Predicted class: 1
+        P(x->leaf): 0.700
+    RIGHT:
+      Leaf
+        Class distribution: {class 0: 0.508, class 1: 0.492}
+        Predicted class: 0
+        P(x->leaf): 0.300
+  RIGHT:
+    Leaf
+      Class distribution: {class 0: 0.338, class 1: 0.662}
+      Predicted class: 1
+      P(x->leaf): 0.000
+RIGHT:
+  Split test: eu_epu_mean_lag1 > 378.39
+  Feature importance:
+    n/a
+  LEFT:
+    Leaf
+      Class distribution: {class 0: 0.518, class 1: 0.482}
+      Predicted class: 0
+      P(x->leaf): 0.000
+  RIGHT:
+    Leaf
+      Class distribution: {class 0: 0.522, class 1: 0.478}
+      Predicted class: 0
+      P(x->leaf): 0.000
+
+Accuracy: 55.41666666666667
+
+========================================
+Date: 2022-12-02 00:00:00
+========================================
+
+Split test: geopolitical_risk_threats_mean_lag1 > 237.95
+Feature importance:
+  n/a
+LEFT:
+  Split test: global_epu_mean_lag1 > 378.84
+  Feature importance:
+    n/a
+  LEFT:
+    Split test: attention_to_extreme_events_mean_lag2 > 1.09
+    Feature importance:
+      natural_gas_price_mean_lag1: 0.032
+      natural_gas_price_mean_lag2: 0.032
+    LEFT:
+      Leaf
+        Class distribution: {class 0: 0.472, class 1: 0.528}
+        Predicted class: 1
+        P(x->leaf): 0.700
+    RIGHT:
+      Leaf
+        Class distribution: {class 0: 0.520, class 1: 0.480}
+        Predicted class: 0
+        P(x->leaf): 0.300
+  RIGHT:
+    Leaf
+      Class distribution: {class 0: 0.338, class 1: 0.662}
+      Predicted class: 1
+      P(x->leaf): 0.000
+RIGHT:
+  Split test: eu_epu_mean_lag1 > 402.02
+  Feature importance:
+    n/a
+  LEFT:
+    Leaf
+      Class distribution: {class 0: 0.508, class 1: 0.492}
+      Predicted class: 0
+      P(x->leaf): 0.000
+  RIGHT:
+    Leaf
+      Class distribution: {class 0: 0.493, class 1: 0.507}
+      Predicted class: 1
+      P(x->leaf): 0.000
+
+Accuracy: 54.6
+
+========================================
+Date: 2023-04-21 00:00:00
+========================================
+
+Split test: geopolitical_risk_threats_mean_lag1 > 236.48
+Feature importance:
+  global_sustainability_uncertainty_mean_lag1: 0.026
+LEFT:
+  Split test: global_epu_mean_lag1 > 382.32
+  Feature importance:
+    global_sustainability_uncertainty_mean_lag1: 0.035
+    global_sustainability_uncertainty_mean_lag2: 0.026
+  LEFT:
+    Split test: attention_to_extreme_events_mean_lag2 > 1.15
+    Feature importance:
+      extreme_weather_index_mean_lag1: 0.028
+    LEFT:
+      Leaf
+        Class distribution: {class 0: 0.475, class 1: 0.525}
+        Predicted class: 1
+        P(x->leaf): 0.655
+    RIGHT:
+      Leaf
+        Class distribution: {class 0: 0.518, class 1: 0.482}
+        Predicted class: 0
+        P(x->leaf): 0.281
+  RIGHT:
+    Leaf
+      Class distribution: {class 0: 0.344, class 1: 0.656}
+      Predicted class: 1
+      P(x->leaf): 0.064
+RIGHT:
+  Split test: eu_epu_mean_lag1 > 404.83
+  Feature importance:
+    n/a
+  LEFT:
+    Leaf
+      Class distribution: {class 0: 0.505, class 1: 0.495}
+      Predicted class: 0
+      P(x->leaf): 0.000
+  RIGHT:
+    Leaf
+      Class distribution: {class 0: 0.481, class 1: 0.519}
+      Predicted class: 1
+      P(x->leaf): 0.000
+
+Accuracy: 54.230769230769226
+
+========================================
+Date: 2023-09-08 00:00:00
+========================================
+
+Split test: geopolitical_risk_threats_mean_lag1 > 235.05
+Feature importance:
+  low_carbon_energy_etf_mean_lag2: 0.025
+LEFT:
+  Split test: global_epu_mean_lag1 > 380.06
+  Feature importance:
+    usd_index_mean_lag1: 0.033
+    usd_index_mean_lag2: 0.029
+    global_sustainability_uncertainty_mean_lag1: 0.027
+    global_sustainability_uncertainty_mean_lag2: 0.026
+  LEFT:
+    Split test: attention_to_extreme_events_mean_lag2 > 1.16
+    Feature importance:
+      sp500_mean_lag1: 0.038
+      sp500_mean_lag2: 0.043
+      extreme_weather_index_mean_lag1: 0.029
+    LEFT:
+      Leaf
+        Class distribution: {class 0: 0.503, class 1: 0.497}
+        Predicted class: 0
+        P(x->leaf): 0.728
+    RIGHT:
+      Leaf
+        Class distribution: {class 0: 0.535, class 1: 0.465}
+        Predicted class: 0
+        P(x->leaf): 0.272
+  RIGHT:
+    Leaf
+      Class distribution: {class 0: 0.376, class 1: 0.624}
+      Predicted class: 1
+      P(x->leaf): 0.000
+RIGHT:
+  Split test: eu_epu_mean_lag1 > 403.98
+  Feature importance:
+    n/a
+  LEFT:
+    Leaf
+      Class distribution: {class 0: 0.504, class 1: 0.496}
+      Predicted class: 0
+      P(x->leaf): 0.000
+  RIGHT:
+    Leaf
+      Class distribution: {class 0: 0.479, class 1: 0.521}
+      Predicted class: 1
+      P(x->leaf): 0.000
+
+Accuracy: 53.888888888888886
+
+========================================
+Date: 2024-01-26 00:00:00
+========================================
+
+Split test: geopolitical_risk_threats_mean_lag1 > 236.91
+Feature importance:
+  geopolitical_risk_events_mean_lag1: 0.035
+LEFT:
+  Split test: global_epu_mean_lag1 > 377.75
+  Feature importance:
+    global_sustainability_uncertainty_mean_lag1: 0.029
+    global_sustainability_uncertainty_mean_lag2: 0.029
+  LEFT:
+    Split test: attention_to_extreme_events_mean_lag2 > 1.17
+    Feature importance:
+      sp500_mean_lag1: 0.040
+      sp500_mean_lag2: 0.043
+    LEFT:
+      Split test: geopolitical_risk_threats_mean_lag1 > 281.92
+      Feature importance:
+        n/a
+      LEFT:
+        Leaf
+          Class distribution: {class 0: 0.526, class 1: 0.474}
+          Predicted class: 0
+          P(x->leaf): 0.704
+      RIGHT:
+        Leaf
+          Class distribution: {class 0: 0.525, class 1: 0.475}
+          Predicted class: 0
+          P(x->leaf): 0.000
+    RIGHT:
+      Leaf
+        Class distribution: {class 0: 0.578, class 1: 0.422}
+        Predicted class: 0
+        P(x->leaf): 0.296
+  RIGHT:
+    Leaf
+      Class distribution: {class 0: 0.381, class 1: 0.619}
+      Predicted class: 1
+      P(x->leaf): 0.000
+RIGHT:
+  Split test: eu_epu_mean_lag1 > 408.13
+  Feature importance:
+    attention_to_energy_price_mean_lag1: 0.041
+    attention_to_energy_price_mean_lag2: 0.035
+    attention_to_supply_demand_mean_lag1: 0.027
+    attention_to_carbon_trading_mean_lag1: 0.043
+    extreme_weather_index_mean_lag2: 0.039
+  LEFT:
+    Leaf
+      Class distribution: {class 0: 0.550, class 1: 0.450}
+      Predicted class: 0
+      P(x->leaf): 0.000
+  RIGHT:
+    Leaf
+      Class distribution: {class 0: 0.518, class 1: 0.482}
+      Predicted class: 0
+      P(x->leaf): 0.000
+
+Accuracy: 54.285714285714285
+
+========================================
+Date: 2024-06-14 00:00:00
+========================================
+
+Split test: geopolitical_risk_threats_mean_lag1 > 237.25
+Feature importance:
+  sp500_mean_lag1: 0.033
+  sp500_mean_lag2: 0.035
+  global_sustainability_uncertainty_mean_lag2: 0.026
+LEFT:
+  Split test: global_epu_mean_lag1 > 374.61
+  Feature importance:
+    sp500_mean_lag1: 0.026
+    usd_index_mean_lag1: 0.029
+    usd_index_mean_lag2: 0.027
+    global_sustainability_uncertainty_mean_lag1: 0.030
+    global_sustainability_uncertainty_mean_lag2: 0.029
+  LEFT:
+    Split test: attention_to_extreme_events_mean_lag2 > 1.16
+    Feature importance:
+      sp500_mean_lag1: 0.050
+      sp500_mean_lag2: 0.054
+    LEFT:
+      Split test: geopolitical_risk_threats_mean_lag1 > 281.98
+      Feature importance:
+        n/a
+      LEFT:
+        Leaf
+          Class distribution: {class 0: 0.548, class 1: 0.452}
+          Predicted class: 0
+          P(x->leaf): 0.700
+      RIGHT:
+        Leaf
+          Class distribution: {class 0: 0.533, class 1: 0.467}
+          Predicted class: 0
+          P(x->leaf): 0.000
+    RIGHT:
+      Leaf
+        Class distribution: {class 0: 0.599, class 1: 0.401}
+        Predicted class: 0
+        P(x->leaf): 0.300
+  RIGHT:
+    Leaf
+      Class distribution: {class 0: 0.381, class 1: 0.619}
+      Predicted class: 1
+      P(x->leaf): 0.000
+RIGHT:
+  Split test: eu_epu_mean_lag1 > 408.31
+  Feature importance:
+    attention_to_carbon_trading_mean_lag1: 0.043
+    extreme_weather_index_mean_lag1: 0.042
+    extreme_weather_index_mean_lag2: 0.045
+  LEFT:
+    Leaf
+      Class distribution: {class 0: 0.547, class 1: 0.453}
+      Predicted class: 0
+      P(x->leaf): 0.000
+  RIGHT:
+    Leaf
+      Class distribution: {class 0: 0.530, class 1: 0.470}
+      Predicted class: 0
+      P(x->leaf): 0.000
+
+Accuracy: 54.310344827586206
+
+========================================
+Date: 2024-11-01 00:00:00
+========================================
+
+Split test: geopolitical_risk_threats_mean_lag1 > 236.07
+Feature importance:
+  sp500_mean_lag1: 0.034
+  sp500_mean_lag2: 0.034
+  global_sustainability_uncertainty_mean_lag2: 0.029
+LEFT:
+  Split test: global_epu_mean_lag1 > 372.15
+  Feature importance:
+    eu_epu_mean_lag2: 0.025
+    global_sustainability_uncertainty_mean_lag1: 0.031
+    global_sustainability_uncertainty_mean_lag2: 0.030
+  LEFT:
+    Split test: attention_to_extreme_events_mean_lag2 > 1.15
+    Feature importance:
+      sp500_mean_lag1: 0.044
+      sp500_mean_lag2: 0.046
+    LEFT:
+      Split test: geopolitical_risk_threats_mean_lag1 > 280.26
+      Feature importance:
+        n/a
+      LEFT:
+        Leaf
+          Class distribution: {class 0: 0.537, class 1: 0.463}
+          Predicted class: 0
+          P(x->leaf): 0.700
+      RIGHT:
+        Leaf
+          Class distribution: {class 0: 0.532, class 1: 0.468}
+          Predicted class: 0
+          P(x->leaf): 0.000
+    RIGHT:
+      Split test: attention_to_carbon_trading_mean_lag1 > 1.03
+      Feature importance:
+        eu_epu_mean_lag2: 0.029
+        attention_to_energy_price_mean_lag2: 0.028
+        attention_to_supply_demand_mean_lag1: 0.026
+      LEFT:
+        Leaf
+          Class distribution: {class 0: 0.486, class 1: 0.514}
+          Predicted class: 1
+          P(x->leaf): 0.225
+      RIGHT:
+        Leaf
+          Class distribution: {class 0: 0.485, class 1: 0.515}
+          Predicted class: 1
+          P(x->leaf): 0.075
+  RIGHT:
+    Leaf
+      Class distribution: {class 0: 0.381, class 1: 0.619}
+      Predicted class: 1
+      P(x->leaf): 0.000
+RIGHT:
+  Split test: eu_epu_mean_lag1 > 416.30
+  Feature importance:
+    attention_to_energy_price_mean_lag1: 0.032
+    attention_to_energy_price_mean_lag2: 0.032
+    attention_to_supply_demand_mean_lag1: 0.044
+    extreme_weather_index_mean_lag1: 0.035
+  LEFT:
+    Leaf
+      Class distribution: {class 0: 0.544, class 1: 0.456}
+      Predicted class: 0
+      P(x->leaf): 0.000
+  RIGHT:
+    Leaf
+      Class distribution: {class 0: 0.531, class 1: 0.469}
+      Predicted class: 0
+      P(x->leaf): 0.000
+
+Accuracy: 54.166666666666664
+
+========================================
+Date: 2025-03-21 00:00:00
+========================================
+
+Split test: geopolitical_risk_threats_mean_lag1 > 236.05
+Feature importance:
+  global_sustainability_uncertainty_mean_lag1: 0.051
+  global_sustainability_uncertainty_mean_lag2: 0.049
+LEFT:
+  Split test: global_epu_mean_lag1 > 384.94
+  Feature importance:
+    eu_epu_mean_lag1: 0.026
+    global_sustainability_uncertainty_mean_lag1: 0.062
+    global_sustainability_uncertainty_mean_lag2: 0.050
+  LEFT:
+    Split test: attention_to_extreme_events_mean_lag2 > 1.13
+    Feature importance:
+      sp500_mean_lag1: 0.026
+      sp500_mean_lag2: 0.030
+      global_epu_mean_lag1: 0.033
+      global_sustainability_uncertainty_mean_lag1: 0.034
+      global_sustainability_uncertainty_mean_lag2: 0.030
+    LEFT:
+      Split test: geopolitical_risk_threats_mean_lag1 > 279.93
+      Feature importance:
+        global_sustainability_uncertainty_mean_lag1: 0.030
+      LEFT:
+        Leaf
+          Class distribution: {class 0: 0.538, class 1: 0.462}
+          Predicted class: 0
+          P(x->leaf): 0.210
+      RIGHT:
+        Leaf
+          Class distribution: {class 0: 0.532, class 1: 0.468}
+          Predicted class: 0
+          P(x->leaf): 0.000
+    RIGHT:
+      Split test: attention_to_carbon_trading_mean_lag1 > 1.05
+      Feature importance:
+        attention_to_energy_price_mean_lag2: 0.026
+      LEFT:
+        Leaf
+          Class distribution: {class 0: 0.486, class 1: 0.514}
+          Predicted class: 1
+          P(x->leaf): 0.063
+      RIGHT:
+        Leaf
+          Class distribution: {class 0: 0.489, class 1: 0.511}
+          Predicted class: 1
+          P(x->leaf): 0.027
+  RIGHT:
+    Leaf
+      Class distribution: {class 0: 0.378, class 1: 0.622}
+      Predicted class: 1
+      P(x->leaf): 0.700
+RIGHT:
+  Split test: eu_epu_mean_lag1 > 449.91
+  Feature importance:
+    attention_to_energy_price_mean_lag1: 0.033
+    attention_to_energy_price_mean_lag2: 0.026
+    attention_to_supply_demand_mean_lag1: 0.038
+  LEFT:
+    Leaf
+      Class distribution: {class 0: 0.544, class 1: 0.456}
+      Predicted class: 0
+      P(x->leaf): 0.000
+  RIGHT:
+    Leaf
+      Class distribution: {class 0: 0.531, class 1: 0.469}
+      Predicted class: 0
+      P(x->leaf): 0.000
+
+Accuracy: 54.35483870967742
+

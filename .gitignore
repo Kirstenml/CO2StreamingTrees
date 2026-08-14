@@ -1,0 +1,5 @@
+.venv/
+venv/
+*.xlsx
+*.xml
+*.idea

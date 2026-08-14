@@ -1,0 +1,324 @@
+
+========================================
+Date: 2013-09-20 00:00:00
+========================================
+
+Leaf [class:label_up] = <class 2:1> weights: {5|15}
+
+
+Accuracy: 70.0
+
+========================================
+Date: 2014-02-07 00:00:00
+========================================
+
+Leaf [class:label_up] = <class 2:1> weights: {15|25}
+
+
+Accuracy: 55.00000000000001
+
+========================================
+Date: 2014-06-27 00:00:00
+========================================
+
+Leaf [class:label_up] = <class 2:1> weights: {24|36}
+
+
+Accuracy: 51.66666666666667
+
+========================================
+Date: 2014-11-14 00:00:00
+========================================
+
+Leaf [class:label_up] = <class 2:1> weights: {32|48}
+
+
+Accuracy: 52.5
+
+========================================
+Date: 2015-04-03 00:00:00
+========================================
+
+Leaf [class:label_up] = <class 2:1> weights: {41|59}
+
+
+Accuracy: 53.0
+
+========================================
+Date: 2015-08-21 00:00:00
+========================================
+
+Leaf [class:label_up] = <class 2:1> weights: {48|72}
+
+
+Accuracy: 55.00000000000001
+
+========================================
+Date: 2016-01-08 00:00:00
+========================================
+
+Leaf [class:label_up] = <class 2:1> weights: {58|82}
+
+
+Accuracy: 54.285714285714285
+
+========================================
+Date: 2016-05-27 00:00:00
+========================================
+
+Leaf [class:label_up] = <class 2:1> weights: {69|91}
+
+
+Accuracy: 53.125
+
+========================================
+Date: 2016-10-14 00:00:00
+========================================
+
+Leaf [class:label_up] = <class 2:1> weights: {78|102}
+
+
+Accuracy: 53.333333333333336
+
+========================================
+Date: 2017-03-03 00:00:00
+========================================
+
+Leaf [class:label_up] = <class 2:1> weights: {89|111}
+
+
+Accuracy: 52.5
+
+========================================
+Date: 2017-07-21 00:00:00
+========================================
+
+Leaf [class:label_up] = <class 2:1> weights: {101|119}
+
+
+Accuracy: 50.0
+
+========================================
+Date: 2017-12-08 00:00:00
+========================================
+
+Leaf [class:label_up] = <class 2:1> weights: {107|133}
+
+
+Accuracy: 51.24999999999999
+
+========================================
+Date: 2018-04-27 00:00:00
+========================================
+
+Leaf [class:label_up] = <class 2:1> weights: {114|146}
+
+
+Accuracy: 52.307692307692314
+
+========================================
+Date: 2018-09-14 00:00:00
+========================================
+
+Leaf [class:label_up] = <class 2:1> weights: {118|162}
+
+
+Accuracy: 54.285714285714285
+
+========================================
+Date: 2019-02-01 00:00:00
+========================================
+
+Leaf [class:label_up] = <class 2:1> weights: {126|174}
+
+
+Accuracy: 54.666666666666664
+
+========================================
+Date: 2019-06-21 00:00:00
+========================================
+
+Leaf [class:label_up] = <class 2:1> weights: {135|185}
+
+
+Accuracy: 54.6875
+
+========================================
+Date: 2019-11-08 00:00:00
+========================================
+
+Leaf [class:label_up] = <class 2:1> weights: {145|195}
+
+
+Accuracy: 54.41176470588235
+
+========================================
+Date: 2020-03-27 00:00:00
+========================================
+
+Leaf [class:label_up] = <class 2:1> weights: {157|203}
+
+
+Accuracy: 53.61111111111111
+
+========================================
+Date: 2020-08-14 00:00:00
+========================================
+
+Leaf [class:label_up] = <class 2:1> weights: {165|215}
+
+
+Accuracy: 53.94736842105263
+
+========================================
+Date: 2021-01-01 00:00:00
+========================================
+
+Leaf [class:label_up] = <class 2:1> weights: {173|227}
+
+
+Accuracy: 54.25
+
+========================================
+Date: 2021-05-21 00:00:00
+========================================
+
+Leaf [class:label_up] = <class 2:1> weights: {180|240}
+
+
+Accuracy: 54.761904761904766
+
+========================================
+Date: 2021-10-08 00:00:00
+========================================
+
+Leaf [class:label_up] = <class 2:1> weights: {189|251}
+
+
+Accuracy: 54.77272727272727
+
+========================================
+Date: 2022-02-25 00:00:00
+========================================
+
+Leaf [class:label_up] = <class 2:1> weights: {196|264}
+
+
+Accuracy: 55.21739130434783
+
+========================================
+Date: 2022-07-15 00:00:00
+========================================
+
+if [att 25:geopolitical_risk_events_mean_lag1] <= 135.73532409667968: 
+  Leaf [class:label_up] = <class 2:1> weights: {161,897|243,309}
+if [att 25:geopolitical_risk_events_mean_lag1] > 135.73532409667968: 
+  Leaf [class:label_up] = <class 1:0> weights: {44,103|30,691}
+
+
+Accuracy: 55.00000000000001
+
+========================================
+Date: 2022-12-02 00:00:00
+========================================
+
+if [att 25:geopolitical_risk_events_mean_lag1] <= 135.73532409667968: 
+  if [att 38:attention_to_geopolitical_risks_mean_lag2] <= -0.19782505918846346: 
+    Leaf [class:label_up] = <class 1:0> weights: {4,686|0}
+  if [att 38:attention_to_geopolitical_risks_mean_lag2] > -0.19782505918846346: 
+    Leaf [class:label_up] = <class 2:1> weights: {6,314|10}
+if [att 25:geopolitical_risk_events_mean_lag1] > 135.73532409667968: 
+  Leaf [class:label_up] = <class 1:0> weights: {45,103|31,691}
+
+
+Accuracy: 54.400000000000006
+
+========================================
+Date: 2023-04-21 00:00:00
+========================================
+
+if [att 25:geopolitical_risk_events_mean_lag1] <= 135.73532409667968: 
+  if [att 38:attention_to_geopolitical_risks_mean_lag2] <= -0.19782505918846346: 
+    Leaf [class:label_up] = <class 1:0> weights: {4,686|1}
+  if [att 38:attention_to_geopolitical_risks_mean_lag2] > -0.19782505918846346: 
+    Leaf [class:label_up] = <class 2:1> weights: {14,314|19}
+if [att 25:geopolitical_risk_events_mean_lag1] > 135.73532409667968: 
+  Leaf [class:label_up] = <class 1:0> weights: {47,103|31,691}
+
+
+Accuracy: 54.807692307692314
+
+========================================
+Date: 2023-09-08 00:00:00
+========================================
+
+if [att 25:geopolitical_risk_events_mean_lag1] <= 135.73532409667968: 
+  if [att 38:attention_to_geopolitical_risks_mean_lag2] <= -0.19782505918846346: 
+    Leaf [class:label_up] = <class 1:0> weights: {4,686|2}
+  if [att 38:attention_to_geopolitical_risks_mean_lag2] > -0.19782505918846346: 
+    Leaf [class:label_up] = <class 1:0> weights: {28,314|24}
+if [att 25:geopolitical_risk_events_mean_lag1] > 135.73532409667968: 
+  Leaf [class:label_up] = <class 1:0> weights: {47,103|31,691}
+
+
+Accuracy: 54.81481481481482
+
+========================================
+Date: 2024-01-26 00:00:00
+========================================
+
+if [att 25:geopolitical_risk_events_mean_lag1] <= 135.73532409667968: 
+  if [att 38:attention_to_geopolitical_risks_mean_lag2] <= -0.19782505918846346: 
+    Leaf [class:label_up] = <class 1:0> weights: {4,686|2}
+  if [att 38:attention_to_geopolitical_risks_mean_lag2] > -0.19782505918846346: 
+    Leaf [class:label_up] = <class 1:0> weights: {32,314|26}
+if [att 25:geopolitical_risk_events_mean_lag1] > 135.73532409667968: 
+  Leaf [class:label_up] = <class 1:0> weights: {58,103|34,691}
+
+
+Accuracy: 55.53571428571429
+
+========================================
+Date: 2024-06-14 00:00:00
+========================================
+
+if [att 25:geopolitical_risk_events_mean_lag1] <= 135.73532409667968: 
+  if [att 38:attention_to_geopolitical_risks_mean_lag2] <= -0.19782505918846346: 
+    Leaf [class:label_up] = <class 1:0> weights: {4,686|2}
+  if [att 38:attention_to_geopolitical_risks_mean_lag2] > -0.19782505918846346: 
+    Leaf [class:label_up] = <class 1:0> weights: {34,314|27}
+if [att 25:geopolitical_risk_events_mean_lag1] > 135.73532409667968: 
+  Leaf [class:label_up] = <class 1:0> weights: {67,103|42,691}
+
+
+Accuracy: 55.344827586206904
+
+========================================
+Date: 2024-11-01 00:00:00
+========================================
+
+if [att 25:geopolitical_risk_events_mean_lag1] <= 135.73532409667968: 
+  if [att 38:attention_to_geopolitical_risks_mean_lag2] <= -0.19782505918846346: 
+    Leaf [class:label_up] = <class 2:1> weights: {4,686|6}
+  if [att 38:attention_to_geopolitical_risks_mean_lag2] > -0.19782505918846346: 
+    Leaf [class:label_up] = <class 1:0> weights: {39,314|29}
+if [att 25:geopolitical_risk_events_mean_lag1] > 135.73532409667968: 
+  Leaf [class:label_up] = <class 1:0> weights: {72,103|46,691}
+
+
+Accuracy: 55.666666666666664
+
+========================================
+Date: 2025-03-21 00:00:00
+========================================
+
+if [att 25:geopolitical_risk_events_mean_lag1] <= 135.73532409667968: 
+  if [att 38:attention_to_geopolitical_risks_mean_lag2] <= -0.19782505918846346: 
+    Leaf [class:label_up] = <class 2:1> weights: {4,686|6}
+  if [att 38:attention_to_geopolitical_risks_mean_lag2] > -0.19782505918846346: 
+    Leaf [class:label_up] = <class 1:0> weights: {43,314|32}
+if [att 25:geopolitical_risk_events_mean_lag1] > 135.73532409667968: 
+  Leaf [class:label_up] = <class 1:0> weights: {79,103|52,691}
+
+
+Accuracy: 55.16129032258065

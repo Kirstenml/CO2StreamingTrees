@@ -1,0 +1,612 @@
+========================================
+Date: 2013-09-20 00:00:00
+========================================
+
+Leaf
+  Class distribution: {class 0: 0.463, class 1: 0.537}
+  Predicted class: 1
+  P(x->leaf): 1.000
+
+Accuracy: 75.0
+
+========================================
+Date: 2014-02-07 00:00:00
+========================================
+
+Leaf
+  Class distribution: {class 0: 0.454, class 1: 0.546}
+  Predicted class: 1
+  P(x->leaf): 1.000
+
+Accuracy: 62.5
+
+========================================
+Date: 2014-06-27 00:00:00
+========================================
+
+Leaf
+  Class distribution: {class 0: 0.447, class 1: 0.553}
+  Predicted class: 1
+  P(x->leaf): 1.000
+
+Accuracy: 60.0
+
+========================================
+Date: 2014-11-14 00:00:00
+========================================
+
+Leaf
+  Class distribution: {class 0: 0.436, class 1: 0.564}
+  Predicted class: 1
+  P(x->leaf): 1.000
+
+Accuracy: 60.0
+
+========================================
+Date: 2015-04-03 00:00:00
+========================================
+
+Leaf
+  Class distribution: {class 0: 0.426, class 1: 0.574}
+  Predicted class: 1
+  P(x->leaf): 1.000
+
+Accuracy: 59.0
+
+========================================
+Date: 2015-08-21 00:00:00
+========================================
+
+Leaf
+  Class distribution: {class 0: 0.408, class 1: 0.592}
+  Predicted class: 1
+  P(x->leaf): 1.000
+
+Accuracy: 60.0
+
+========================================
+Date: 2016-01-08 00:00:00
+========================================
+
+Leaf
+  Class distribution: {class 0: 0.405, class 1: 0.595}
+  Predicted class: 1
+  P(x->leaf): 1.000
+
+Accuracy: 58.57142857142858
+
+========================================
+Date: 2016-05-27 00:00:00
+========================================
+
+Leaf
+  Class distribution: {class 0: 0.422, class 1: 0.578}
+  Predicted class: 1
+  P(x->leaf): 1.000
+
+Accuracy: 56.875
+
+========================================
+Date: 2016-10-14 00:00:00
+========================================
+
+Leaf
+  Class distribution: {class 0: 0.433, class 1: 0.567}
+  Predicted class: 1
+  P(x->leaf): 1.000
+
+Accuracy: 56.666666666666664
+
+========================================
+Date: 2017-03-03 00:00:00
+========================================
+
+Leaf
+  Class distribution: {class 0: 0.435, class 1: 0.565}
+  Predicted class: 1
+  P(x->leaf): 1.000
+
+Accuracy: 55.50000000000001
+
+========================================
+Date: 2017-07-21 00:00:00
+========================================
+
+Leaf
+  Class distribution: {class 0: 0.460, class 1: 0.540}
+  Predicted class: 1
+  P(x->leaf): 1.000
+
+Accuracy: 54.090909090909086
+
+========================================
+Date: 2017-12-08 00:00:00
+========================================
+
+Split test: global_epu_mean_lag1 > 196.42
+Feature importance:
+  n/a
+LEFT:
+  Leaf
+    Class distribution: {class 0: 0.489, class 1: 0.511}
+    Predicted class: 1
+    P(x->leaf): 0.915
+RIGHT:
+  Leaf
+    Class distribution: {class 0: 0.491, class 1: 0.509}
+    Predicted class: 1
+    P(x->leaf): 0.085
+
+Accuracy: 55.41666666666667
+
+========================================
+Date: 2018-04-27 00:00:00
+========================================
+
+Split test: global_epu_mean_lag1 > 197.46
+Feature importance:
+  n/a
+LEFT:
+  Leaf
+    Class distribution: {class 0: 0.468, class 1: 0.532}
+    Predicted class: 1
+    P(x->leaf): 1.000
+RIGHT:
+  Leaf
+    Class distribution: {class 0: 0.477, class 1: 0.523}
+    Predicted class: 1
+    P(x->leaf): 0.000
+
+Accuracy: 56.15384615384615
+
+========================================
+Date: 2018-09-14 00:00:00
+========================================
+
+Split test: global_epu_mean_lag1 > 202.06
+Feature importance:
+  sp500_mean_lag1: 0.029
+  sp500_mean_lag2: 0.028
+LEFT:
+  Leaf
+    Class distribution: {class 0: 0.435, class 1: 0.565}
+    Predicted class: 1
+    P(x->leaf): 1.000
+RIGHT:
+  Leaf
+    Class distribution: {class 0: 0.431, class 1: 0.569}
+    Predicted class: 1
+    P(x->leaf): 0.000
+
+Accuracy: 57.85714285714286
+
+========================================
+Date: 2019-02-01 00:00:00
+========================================
+
+Split test: global_epu_mean_lag1 > 214.69
+Feature importance:
+  global_epu_mean_lag1: 0.026
+  global_epu_mean_lag2: 0.028
+LEFT:
+  Leaf
+    Class distribution: {class 0: 0.410, class 1: 0.590}
+    Predicted class: 1
+    P(x->leaf): 0.300
+RIGHT:
+  Leaf
+    Class distribution: {class 0: 0.397, class 1: 0.603}
+    Predicted class: 1
+    P(x->leaf): 0.700
+
+Accuracy: 57.99999999999999
+
+========================================
+Date: 2019-06-21 00:00:00
+========================================
+
+Split test: global_epu_mean_lag1 > 225.29
+Feature importance:
+  global_epu_mean_lag1: 0.037
+LEFT:
+  Leaf
+    Class distribution: {class 0: 0.409, class 1: 0.591}
+    Predicted class: 1
+    P(x->leaf): 0.300
+RIGHT:
+  Leaf
+    Class distribution: {class 0: 0.380, class 1: 0.620}
+    Predicted class: 1
+    P(x->leaf): 0.700
+
+Accuracy: 57.8125
+
+========================================
+Date: 2019-11-08 00:00:00
+========================================
+
+Split test: global_epu_mean_lag1 > 240.73
+Feature importance:
+  n/a
+LEFT:
+  Leaf
+    Class distribution: {class 0: 0.414, class 1: 0.586}
+    Predicted class: 1
+    P(x->leaf): 1.000
+RIGHT:
+  Leaf
+    Class distribution: {class 0: 0.371, class 1: 0.629}
+    Predicted class: 1
+    P(x->leaf): 0.000
+
+Accuracy: 57.35294117647059
+
+========================================
+Date: 2020-03-27 00:00:00
+========================================
+
+Split test: global_epu_mean_lag1 > 248.03
+Feature importance:
+  n/a
+LEFT:
+  Leaf
+    Class distribution: {class 0: 0.431, class 1: 0.569}
+    Predicted class: 1
+    P(x->leaf): 0.300
+RIGHT:
+  Leaf
+    Class distribution: {class 0: 0.381, class 1: 0.619}
+    Predicted class: 1
+    P(x->leaf): 0.700
+
+Accuracy: 56.388888888888886
+
+========================================
+Date: 2020-08-14 00:00:00
+========================================
+
+Split test: global_epu_mean_lag1 > 276.70
+Feature importance:
+  low_carbon_energy_etf_mean_lag2: 0.026
+LEFT:
+  Leaf
+    Class distribution: {class 0: 0.441, class 1: 0.559}
+    Predicted class: 1
+    P(x->leaf): 0.300
+RIGHT:
+  Leaf
+    Class distribution: {class 0: 0.378, class 1: 0.622}
+    Predicted class: 1
+    P(x->leaf): 0.700
+
+Accuracy: 56.57894736842105
+
+========================================
+Date: 2021-01-01 00:00:00
+========================================
+
+Split test: global_epu_mean_lag1 > 295.21
+Feature importance:
+  low_carbon_energy_etf_mean_lag1: 0.045
+  low_carbon_energy_etf_mean_lag2: 0.047
+LEFT:
+  Leaf
+    Class distribution: {class 0: 0.444, class 1: 0.556}
+    Predicted class: 1
+    P(x->leaf): 0.300
+RIGHT:
+  Leaf
+    Class distribution: {class 0: 0.381, class 1: 0.619}
+    Predicted class: 1
+    P(x->leaf): 0.700
+
+Accuracy: 56.75
+
+========================================
+Date: 2021-05-21 00:00:00
+========================================
+
+Split test: global_epu_mean_lag1 > 296.38
+Feature importance:
+  sp500_mean_lag1: 0.033
+  sp500_mean_lag2: 0.034
+  low_carbon_energy_etf_mean_lag1: 0.037
+  low_carbon_energy_etf_mean_lag2: 0.045
+LEFT:
+  Leaf
+    Class distribution: {class 0: 0.427, class 1: 0.573}
+    Predicted class: 1
+    P(x->leaf): 1.000
+RIGHT:
+  Leaf
+    Class distribution: {class 0: 0.371, class 1: 0.629}
+    Predicted class: 1
+    P(x->leaf): 0.000
+
+Accuracy: 57.14285714285714
+
+========================================
+Date: 2021-10-08 00:00:00
+========================================
+
+Split test: global_epu_mean_lag1 > 294.44
+Feature importance:
+  natural_gas_price_mean_lag1: 0.034
+  natural_gas_price_mean_lag2: 0.030
+  low_carbon_energy_etf_mean_lag2: 0.025
+  natural_gas_nymex_mean_lag2: 0.026
+LEFT:
+  Leaf
+    Class distribution: {class 0: 0.412, class 1: 0.588}
+    Predicted class: 1
+    P(x->leaf): 1.000
+RIGHT:
+  Leaf
+    Class distribution: {class 0: 0.370, class 1: 0.630}
+    Predicted class: 1
+    P(x->leaf): 0.000
+
+Accuracy: 57.04545454545455
+
+========================================
+Date: 2022-02-25 00:00:00
+========================================
+
+Split test: global_epu_mean_lag1 > 294.76
+Feature importance:
+  n/a
+LEFT:
+  Leaf
+    Class distribution: {class 0: 0.394, class 1: 0.606}
+    Predicted class: 1
+    P(x->leaf): 1.000
+RIGHT:
+  Leaf
+    Class distribution: {class 0: 0.369, class 1: 0.631}
+    Predicted class: 1
+    P(x->leaf): 0.000
+
+Accuracy: 57.391304347826086
+
+========================================
+Date: 2022-07-15 00:00:00
+========================================
+
+Split test: global_epu_mean_lag1 > 299.32
+Feature importance:
+  n/a
+LEFT:
+  Split test: global_epu_mean_lag2 > 403.73
+  Feature importance:
+    n/a
+  LEFT:
+    Leaf
+      Class distribution: {class 0: 0.508, class 1: 0.492}
+      Predicted class: 0
+      P(x->leaf): 1.000
+  RIGHT:
+    Leaf
+      Class distribution: {class 0: 0.518, class 1: 0.482}
+      Predicted class: 0
+      P(x->leaf): 0.000
+RIGHT:
+  Leaf
+    Class distribution: {class 0: 0.390, class 1: 0.610}
+    Predicted class: 1
+    P(x->leaf): 0.000
+
+Accuracy: 56.666666666666664
+
+========================================
+Date: 2022-12-02 00:00:00
+========================================
+
+Split test: global_epu_mean_lag1 > 303.87
+Feature importance:
+  n/a
+LEFT:
+  Split test: global_epu_mean_lag2 > 408.98
+  Feature importance:
+    n/a
+  LEFT:
+    Leaf
+      Class distribution: {class 0: 0.511, class 1: 0.489}
+      Predicted class: 0
+      P(x->leaf): 0.300
+  RIGHT:
+    Leaf
+      Class distribution: {class 0: 0.529, class 1: 0.471}
+      Predicted class: 0
+      P(x->leaf): 0.000
+RIGHT:
+  Leaf
+    Class distribution: {class 0: 0.400, class 1: 0.600}
+    Predicted class: 1
+    P(x->leaf): 0.700
+
+Accuracy: 56.8
+
+========================================
+Date: 2023-04-21 00:00:00
+========================================
+
+Split test: global_epu_mean_lag1 > 307.05
+Feature importance:
+  global_sustainability_uncertainty_mean_lag1: 0.026
+LEFT:
+  Split test: global_epu_mean_lag2 > 413.79
+  Feature importance:
+    attention_to_energy_policy_mean_lag1: 0.033
+  LEFT:
+    Leaf
+      Class distribution: {class 0: 0.515, class 1: 0.485}
+      Predicted class: 0
+      P(x->leaf): 1.000
+  RIGHT:
+    Leaf
+      Class distribution: {class 0: 0.530, class 1: 0.470}
+      Predicted class: 0
+      P(x->leaf): 0.000
+RIGHT:
+  Leaf
+    Class distribution: {class 0: 0.379, class 1: 0.621}
+    Predicted class: 1
+    P(x->leaf): 0.000
+
+Accuracy: 56.730769230769226
+
+========================================
+Date: 2023-09-08 00:00:00
+========================================
+
+Split test: global_epu_mean_lag1 > 305.94
+Feature importance:
+  sp500_mean_lag1: 0.029
+  sp500_mean_lag2: 0.030
+LEFT:
+  Split test: global_epu_mean_lag2 > 411.36
+  Feature importance:
+    n/a
+  LEFT:
+    Leaf
+      Class distribution: {class 0: 0.540, class 1: 0.460}
+      Predicted class: 0
+      P(x->leaf): 0.990
+  RIGHT:
+    Leaf
+      Class distribution: {class 0: 0.535, class 1: 0.465}
+      Predicted class: 0
+      P(x->leaf): 0.010
+RIGHT:
+  Leaf
+    Class distribution: {class 0: 0.379, class 1: 0.621}
+    Predicted class: 1
+    P(x->leaf): 0.000
+
+Accuracy: 57.22222222222222
+
+========================================
+Date: 2024-01-26 00:00:00
+========================================
+
+Split test: global_epu_mean_lag1 > 304.80
+Feature importance:
+  sp500_mean_lag1: 0.027
+  sp500_mean_lag2: 0.026
+LEFT:
+  Split test: global_epu_mean_lag2 > 408.37
+  Feature importance:
+    sp500_mean_lag1: 0.031
+    sp500_mean_lag2: 0.027
+  LEFT:
+    Leaf
+      Class distribution: {class 0: 0.581, class 1: 0.419}
+      Predicted class: 0
+      P(x->leaf): 1.000
+  RIGHT:
+    Leaf
+      Class distribution: {class 0: 0.548, class 1: 0.452}
+      Predicted class: 0
+      P(x->leaf): 0.000
+RIGHT:
+  Leaf
+    Class distribution: {class 0: 0.379, class 1: 0.621}
+    Predicted class: 1
+    P(x->leaf): 0.000
+
+Accuracy: 57.85714285714286
+
+========================================
+Date: 2024-06-14 00:00:00
+========================================
+
+Split test: global_epu_mean_lag1 > 302.80
+Feature importance:
+  sp500_mean_lag1: 0.036
+  sp500_mean_lag2: 0.037
+LEFT:
+  Split test: global_epu_mean_lag2 > 404.94
+  Feature importance:
+    sp500_mean_lag1: 0.037
+    sp500_mean_lag2: 0.034
+  LEFT:
+    Leaf
+      Class distribution: {class 0: 0.598, class 1: 0.402}
+      Predicted class: 0
+      P(x->leaf): 1.000
+  RIGHT:
+    Leaf
+      Class distribution: {class 0: 0.549, class 1: 0.451}
+      Predicted class: 0
+      P(x->leaf): 0.000
+RIGHT:
+  Leaf
+    Class distribution: {class 0: 0.379, class 1: 0.621}
+    Predicted class: 1
+    P(x->leaf): 0.000
+
+Accuracy: 57.758620689655174
+
+========================================
+Date: 2024-11-01 00:00:00
+========================================
+
+Split test: global_epu_mean_lag1 > 301.44
+Feature importance:
+  sp500_mean_lag1: 0.032
+  sp500_mean_lag2: 0.032
+LEFT:
+  Split test: global_epu_mean_lag2 > 401.98
+  Feature importance:
+    sp500_mean_lag1: 0.032
+    sp500_mean_lag2: 0.028
+  LEFT:
+    Leaf
+      Class distribution: {class 0: 0.601, class 1: 0.399}
+      Predicted class: 0
+      P(x->leaf): 1.000
+  RIGHT:
+    Leaf
+      Class distribution: {class 0: 0.550, class 1: 0.450}
+      Predicted class: 0
+      P(x->leaf): 0.000
+RIGHT:
+  Leaf
+    Class distribution: {class 0: 0.379, class 1: 0.621}
+    Predicted class: 1
+    P(x->leaf): 0.000
+
+Accuracy: 57.49999999999999
+
+========================================
+Date: 2025-03-21 00:00:00
+========================================
+
+Split test: global_epu_mean_lag1 > 310.72
+Feature importance:
+  global_epu_mean_lag1: 0.029
+  global_sustainability_uncertainty_mean_lag1: 0.042
+  global_sustainability_uncertainty_mean_lag2: 0.035
+LEFT:
+  Split test: global_epu_mean_lag2 > 411.12
+  Feature importance:
+    global_sustainability_uncertainty_mean_lag1: 0.031
+    global_sustainability_uncertainty_mean_lag2: 0.028
+  LEFT:
+    Leaf
+      Class distribution: {class 0: 0.600, class 1: 0.400}
+      Predicted class: 0
+      P(x->leaf): 0.300
+  RIGHT:
+    Leaf
+      Class distribution: {class 0: 0.550, class 1: 0.450}
+      Predicted class: 0
+      P(x->leaf): 0.000
+RIGHT:
+  Leaf
+    Class distribution: {class 0: 0.381, class 1: 0.619}
+    Predicted class: 1
+    P(x->leaf): 0.700
+
+Accuracy: 57.41935483870968
+

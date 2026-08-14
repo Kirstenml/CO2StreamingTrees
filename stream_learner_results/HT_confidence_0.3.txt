@@ -1,0 +1,744 @@
+
+========================================
+Date: 2013-09-20 00:00:00
+========================================
+
+Leaf [class:label_up] = <class 2:1> weights: {5|15}
+
+
+Accuracy: 70.0
+
+========================================
+Date: 2014-02-07 00:00:00
+========================================
+
+if [att 18:eu_epu_mean_lag2] <= 163.31488888331404: 
+  Leaf [class:label_up] = <class 2:1> weights: {3|17,485}
+if [att 18:eu_epu_mean_lag2] > 163.31488888331404: 
+  Leaf [class:label_up] = <class 1:0> weights: {12|7,515}
+
+
+Accuracy: 65.0
+
+========================================
+Date: 2014-06-27 00:00:00
+========================================
+
+if [att 18:eu_epu_mean_lag2] <= 163.31488888331404: 
+  if [att 12:clean_energy_etf_wilderhill_mean_lag2] <= 31.775454545454544: 
+    Leaf [class:label_up] = <class 2:1> weights: {4|5,591}
+  if [att 12:clean_energy_etf_wilderhill_mean_lag2] > 31.775454545454544: 
+    Leaf [class:label_up] = <class 2:1> weights: {8|13,409}
+if [att 18:eu_epu_mean_lag2] > 163.31488888331404: 
+  Leaf [class:label_up] = <class 1:0> weights: {12|7,515}
+
+
+Accuracy: 58.333333333333336
+
+========================================
+Date: 2014-11-14 00:00:00
+========================================
+
+if [att 18:eu_epu_mean_lag2] <= 163.31488888331404: 
+  if [att 12:clean_energy_etf_wilderhill_mean_lag2] <= 31.775454545454544: 
+    Leaf [class:label_up] = <class 2:1> weights: {5|8,591}
+  if [att 12:clean_energy_etf_wilderhill_mean_lag2] > 31.775454545454544: 
+    if [att 31:attention_to_carbon_trading_mean_lag1] <= 0.10928817723480588: 
+      Leaf [class:label_up] = <class 2:1> weights: {3|7,03}
+    if [att 31:attention_to_carbon_trading_mean_lag1] > 0.10928817723480588: 
+      Leaf [class:label_up] = <class 1:0> weights: {10|2,97}
+if [att 18:eu_epu_mean_lag2] > 163.31488888331404: 
+  Leaf [class:label_up] = <class 1:0> weights: {14|10,515}
+
+
+Accuracy: 60.0
+
+========================================
+Date: 2015-04-03 00:00:00
+========================================
+
+if [att 18:eu_epu_mean_lag2] <= 163.31488888331404: 
+  if [att 12:clean_energy_etf_wilderhill_mean_lag2] <= 31.775454545454544: 
+    if [att 23:geopolitical_risk_threats_mean_lag1] <= 102.50898160067473: 
+      Leaf [class:label_up] = <class 2:1> weights: {0|11}
+    if [att 23:geopolitical_risk_threats_mean_lag1] > 102.50898160067473: 
+      Leaf [class:label_up] = <class 1:0> weights: {6|2}
+  if [att 12:clean_energy_etf_wilderhill_mean_lag2] > 31.775454545454544: 
+    if [att 31:attention_to_carbon_trading_mean_lag1] <= 0.10928817723480588: 
+      Leaf [class:label_up] = <class 2:1> weights: {3|7,03}
+    if [att 31:attention_to_carbon_trading_mean_lag1] > 0.10928817723480588: 
+      Leaf [class:label_up] = <class 1:0> weights: {10|2,97}
+if [att 18:eu_epu_mean_lag2] > 163.31488888331404: 
+  Leaf [class:label_up] = <class 1:0> weights: {18|15,515}
+
+
+Accuracy: 56.00000000000001
+
+========================================
+Date: 2015-08-21 00:00:00
+========================================
+
+if [att 18:eu_epu_mean_lag2] <= 163.31488888331404: 
+  if [att 12:clean_energy_etf_wilderhill_mean_lag2] <= 31.775454545454544: 
+    if [att 23:geopolitical_risk_threats_mean_lag1] <= 102.50898160067473: 
+      Leaf [class:label_up] = <class 2:1> weights: {1|13}
+    if [att 23:geopolitical_risk_threats_mean_lag1] > 102.50898160067473: 
+      Leaf [class:label_up] = <class 1:0> weights: {7|5}
+  if [att 12:clean_energy_etf_wilderhill_mean_lag2] > 31.775454545454544: 
+    if [att 31:attention_to_carbon_trading_mean_lag1] <= 0.10928817723480588: 
+      Leaf [class:label_up] = <class 2:1> weights: {3|7,03}
+    if [att 31:attention_to_carbon_trading_mean_lag1] > 0.10928817723480588: 
+      Leaf [class:label_up] = <class 1:0> weights: {10|2,97}
+if [att 18:eu_epu_mean_lag2] > 163.31488888331404: 
+  Leaf [class:label_up] = <class 2:1> weights: {23|23,515}
+
+
+Accuracy: 54.166666666666664
+
+========================================
+Date: 2016-01-08 00:00:00
+========================================
+
+if [att 18:eu_epu_mean_lag2] <= 163.31488888331404: 
+  if [att 12:clean_energy_etf_wilderhill_mean_lag2] <= 31.775454545454544: 
+    if [att 23:geopolitical_risk_threats_mean_lag1] <= 102.50898160067473: 
+      Leaf [class:label_up] = <class 2:1> weights: {4|14}
+    if [att 23:geopolitical_risk_threats_mean_lag1] > 102.50898160067473: 
+      Leaf [class:label_up] = <class 1:0> weights: {8|7}
+  if [att 12:clean_energy_etf_wilderhill_mean_lag2] > 31.775454545454544: 
+    if [att 31:attention_to_carbon_trading_mean_lag1] <= 0.10928817723480588: 
+      Leaf [class:label_up] = <class 2:1> weights: {3|7,03}
+    if [att 31:attention_to_carbon_trading_mean_lag1] > 0.10928817723480588: 
+      Leaf [class:label_up] = <class 1:0> weights: {10|2,97}
+if [att 18:eu_epu_mean_lag2] > 163.31488888331404: 
+  Leaf [class:label_up] = <class 2:1> weights: {29|30,515}
+
+
+Accuracy: 55.00000000000001
+
+========================================
+Date: 2016-05-27 00:00:00
+========================================
+
+if [att 18:eu_epu_mean_lag2] <= 163.31488888331404: 
+  if [att 12:clean_energy_etf_wilderhill_mean_lag2] <= 31.775454545454544: 
+    if [att 23:geopolitical_risk_threats_mean_lag1] <= 102.50898160067473: 
+      Leaf [class:label_up] = <class 2:1> weights: {4|14}
+    if [att 23:geopolitical_risk_threats_mean_lag1] > 102.50898160067473: 
+      Leaf [class:label_up] = <class 1:0> weights: {10|7}
+  if [att 12:clean_energy_etf_wilderhill_mean_lag2] > 31.775454545454544: 
+    if [att 31:attention_to_carbon_trading_mean_lag1] <= 0.10928817723480588: 
+      Leaf [class:label_up] = <class 2:1> weights: {3|7,03}
+    if [att 31:attention_to_carbon_trading_mean_lag1] > 0.10928817723480588: 
+      Leaf [class:label_up] = <class 1:0> weights: {10|2,97}
+if [att 18:eu_epu_mean_lag2] > 163.31488888331404: 
+  Leaf [class:label_up] = <class 2:1> weights: {38|39,515}
+
+
+Accuracy: 52.5
+
+========================================
+Date: 2016-10-14 00:00:00
+========================================
+
+if [att 18:eu_epu_mean_lag2] <= 163.31488888331404: 
+  if [att 12:clean_energy_etf_wilderhill_mean_lag2] <= 31.775454545454544: 
+    if [att 23:geopolitical_risk_threats_mean_lag1] <= 102.50898160067473: 
+      Leaf [class:label_up] = <class 2:1> weights: {4|14}
+    if [att 23:geopolitical_risk_threats_mean_lag1] > 102.50898160067473: 
+      Leaf [class:label_up] = <class 1:0> weights: {10|7}
+  if [att 12:clean_energy_etf_wilderhill_mean_lag2] > 31.775454545454544: 
+    if [att 31:attention_to_carbon_trading_mean_lag1] <= 0.10928817723480588: 
+      Leaf [class:label_up] = <class 2:1> weights: {3|7,03}
+    if [att 31:attention_to_carbon_trading_mean_lag1] > 0.10928817723480588: 
+      Leaf [class:label_up] = <class 1:0> weights: {10|2,97}
+if [att 18:eu_epu_mean_lag2] > 163.31488888331404: 
+  Leaf [class:label_up] = <class 2:1> weights: {47|50,515}
+
+
+Accuracy: 53.888888888888886
+
+========================================
+Date: 2017-03-03 00:00:00
+========================================
+
+if [att 18:eu_epu_mean_lag2] <= 163.31488888331404: 
+  if [att 12:clean_energy_etf_wilderhill_mean_lag2] <= 31.775454545454544: 
+    if [att 23:geopolitical_risk_threats_mean_lag1] <= 102.50898160067473: 
+      Leaf [class:label_up] = <class 2:1> weights: {4|14}
+    if [att 23:geopolitical_risk_threats_mean_lag1] > 102.50898160067473: 
+      Leaf [class:label_up] = <class 1:0> weights: {10|7}
+  if [att 12:clean_energy_etf_wilderhill_mean_lag2] > 31.775454545454544: 
+    if [att 31:attention_to_carbon_trading_mean_lag1] <= 0.10928817723480588: 
+      Leaf [class:label_up] = <class 2:1> weights: {3|7,03}
+    if [att 31:attention_to_carbon_trading_mean_lag1] > 0.10928817723480588: 
+      Leaf [class:label_up] = <class 1:0> weights: {10|2,97}
+if [att 18:eu_epu_mean_lag2] > 163.31488888331404: 
+  Leaf [class:label_up] = <class 2:1> weights: {58|59,515}
+
+
+Accuracy: 54.50000000000001
+
+========================================
+Date: 2017-07-21 00:00:00
+========================================
+
+if [att 18:eu_epu_mean_lag2] <= 163.31488888331404: 
+  if [att 12:clean_energy_etf_wilderhill_mean_lag2] <= 31.775454545454544: 
+    if [att 23:geopolitical_risk_threats_mean_lag1] <= 102.50898160067473: 
+      Leaf [class:label_up] = <class 2:1> weights: {4|14}
+    if [att 23:geopolitical_risk_threats_mean_lag1] > 102.50898160067473: 
+      Leaf [class:label_up] = <class 1:0> weights: {10|7}
+  if [att 12:clean_energy_etf_wilderhill_mean_lag2] > 31.775454545454544: 
+    if [att 31:attention_to_carbon_trading_mean_lag1] <= 0.10928817723480588: 
+      Leaf [class:label_up] = <class 2:1> weights: {3|7,03}
+    if [att 31:attention_to_carbon_trading_mean_lag1] > 0.10928817723480588: 
+      Leaf [class:label_up] = <class 1:0> weights: {10|2,97}
+if [att 18:eu_epu_mean_lag2] > 163.31488888331404: 
+  Leaf [class:label_up] = <class 1:0> weights: {70|67,515}
+
+
+Accuracy: 55.45454545454545
+
+========================================
+Date: 2017-12-08 00:00:00
+========================================
+
+if [att 18:eu_epu_mean_lag2] <= 163.31488888331404: 
+  if [att 12:clean_energy_etf_wilderhill_mean_lag2] <= 31.775454545454544: 
+    if [att 23:geopolitical_risk_threats_mean_lag1] <= 102.50898160067473: 
+      Leaf [class:label_up] = <class 2:1> weights: {4|14}
+    if [att 23:geopolitical_risk_threats_mean_lag1] > 102.50898160067473: 
+      Leaf [class:label_up] = <class 2:1> weights: {10|11}
+  if [att 12:clean_energy_etf_wilderhill_mean_lag2] > 31.775454545454544: 
+    if [att 31:attention_to_carbon_trading_mean_lag1] <= 0.10928817723480588: 
+      Leaf [class:label_up] = <class 2:1> weights: {3|7,03}
+    if [att 31:attention_to_carbon_trading_mean_lag1] > 0.10928817723480588: 
+      Leaf [class:label_up] = <class 1:0> weights: {10|2,97}
+if [att 18:eu_epu_mean_lag2] > 163.31488888331404: 
+  Leaf [class:label_up] = <class 2:1> weights: {76|77,515}
+
+
+Accuracy: 57.08333333333333
+
+========================================
+Date: 2018-04-27 00:00:00
+========================================
+
+if [att 18:eu_epu_mean_lag2] <= 163.31488888331404: 
+  if [att 12:clean_energy_etf_wilderhill_mean_lag2] <= 31.775454545454544: 
+    if [att 23:geopolitical_risk_threats_mean_lag1] <= 102.50898160067473: 
+      Leaf [class:label_up] = <class 2:1> weights: {4|16}
+    if [att 23:geopolitical_risk_threats_mean_lag1] > 102.50898160067473: 
+      Leaf [class:label_up] = <class 2:1> weights: {11|13}
+  if [att 12:clean_energy_etf_wilderhill_mean_lag2] > 31.775454545454544: 
+    if [att 31:attention_to_carbon_trading_mean_lag1] <= 0.10928817723480588: 
+      Leaf [class:label_up] = <class 2:1> weights: {3|7,03}
+    if [att 31:attention_to_carbon_trading_mean_lag1] > 0.10928817723480588: 
+      Leaf [class:label_up] = <class 1:0> weights: {10|2,97}
+if [att 18:eu_epu_mean_lag2] > 163.31488888331404: 
+  Leaf [class:label_up] = <class 2:1> weights: {82|86,515}
+
+
+Accuracy: 57.30769230769231
+
+========================================
+Date: 2018-09-14 00:00:00
+========================================
+
+if [att 18:eu_epu_mean_lag2] <= 163.31488888331404: 
+  if [att 12:clean_energy_etf_wilderhill_mean_lag2] <= 31.775454545454544: 
+    if [att 23:geopolitical_risk_threats_mean_lag1] <= 102.50898160067473: 
+      Leaf [class:label_up] = <class 2:1> weights: {4|16}
+    if [att 23:geopolitical_risk_threats_mean_lag1] > 102.50898160067473: 
+      Leaf [class:label_up] = <class 2:1> weights: {12|15}
+  if [att 12:clean_energy_etf_wilderhill_mean_lag2] > 31.775454545454544: 
+    if [att 31:attention_to_carbon_trading_mean_lag1] <= 0.10928817723480588: 
+      Leaf [class:label_up] = <class 2:1> weights: {3|7,03}
+    if [att 31:attention_to_carbon_trading_mean_lag1] > 0.10928817723480588: 
+      Leaf [class:label_up] = <class 1:0> weights: {10|2,97}
+if [att 18:eu_epu_mean_lag2] > 163.31488888331404: 
+  Leaf [class:label_up] = <class 2:1> weights: {85|100,515}
+
+
+Accuracy: 57.85714285714286
+
+========================================
+Date: 2019-02-01 00:00:00
+========================================
+
+if [att 18:eu_epu_mean_lag2] <= 163.31488888331404: 
+  if [att 12:clean_energy_etf_wilderhill_mean_lag2] <= 31.775454545454544: 
+    if [att 23:geopolitical_risk_threats_mean_lag1] <= 102.50898160067473: 
+      Leaf [class:label_up] = <class 2:1> weights: {4|16}
+    if [att 23:geopolitical_risk_threats_mean_lag1] > 102.50898160067473: 
+      Leaf [class:label_up] = <class 2:1> weights: {12|15}
+  if [att 12:clean_energy_etf_wilderhill_mean_lag2] > 31.775454545454544: 
+    if [att 31:attention_to_carbon_trading_mean_lag1] <= 0.10928817723480588: 
+      Leaf [class:label_up] = <class 2:1> weights: {3|7,03}
+    if [att 31:attention_to_carbon_trading_mean_lag1] > 0.10928817723480588: 
+      Leaf [class:label_up] = <class 1:0> weights: {10|2,97}
+if [att 18:eu_epu_mean_lag2] > 163.31488888331404: 
+  Leaf [class:label_up] = <class 2:1> weights: {93|112,515}
+
+
+Accuracy: 57.666666666666664
+
+========================================
+Date: 2019-06-21 00:00:00
+========================================
+
+if [att 18:eu_epu_mean_lag2] <= 163.31488888331404: 
+  if [att 12:clean_energy_etf_wilderhill_mean_lag2] <= 31.775454545454544: 
+    if [att 23:geopolitical_risk_threats_mean_lag1] <= 102.50898160067473: 
+      Leaf [class:label_up] = <class 2:1> weights: {4|16}
+    if [att 23:geopolitical_risk_threats_mean_lag1] > 102.50898160067473: 
+      Leaf [class:label_up] = <class 2:1> weights: {12|15}
+  if [att 12:clean_energy_etf_wilderhill_mean_lag2] > 31.775454545454544: 
+    if [att 31:attention_to_carbon_trading_mean_lag1] <= 0.10928817723480588: 
+      Leaf [class:label_up] = <class 2:1> weights: {3|7,03}
+    if [att 31:attention_to_carbon_trading_mean_lag1] > 0.10928817723480588: 
+      Leaf [class:label_up] = <class 1:0> weights: {10|2,97}
+if [att 18:eu_epu_mean_lag2] > 163.31488888331404: 
+  Leaf [class:label_up] = <class 2:1> weights: {102|123,515}
+
+
+Accuracy: 57.49999999999999
+
+========================================
+Date: 2019-11-08 00:00:00
+========================================
+
+if [att 18:eu_epu_mean_lag2] <= 163.31488888331404: 
+  if [att 12:clean_energy_etf_wilderhill_mean_lag2] <= 31.775454545454544: 
+    if [att 23:geopolitical_risk_threats_mean_lag1] <= 102.50898160067473: 
+      Leaf [class:label_up] = <class 2:1> weights: {4|16}
+    if [att 23:geopolitical_risk_threats_mean_lag1] > 102.50898160067473: 
+      Leaf [class:label_up] = <class 2:1> weights: {12|15}
+  if [att 12:clean_energy_etf_wilderhill_mean_lag2] > 31.775454545454544: 
+    if [att 31:attention_to_carbon_trading_mean_lag1] <= 0.10928817723480588: 
+      Leaf [class:label_up] = <class 2:1> weights: {3|7,03}
+    if [att 31:attention_to_carbon_trading_mean_lag1] > 0.10928817723480588: 
+      Leaf [class:label_up] = <class 1:0> weights: {10|2,97}
+if [att 18:eu_epu_mean_lag2] > 163.31488888331404: 
+  if [att 25:geopolitical_risk_events_mean_lag1] <= 141.01194575916637: 
+    Leaf [class:label_up] = <class 2:1> weights: {77,015|117,724}
+  if [att 25:geopolitical_risk_events_mean_lag1] > 141.01194575916637: 
+    Leaf [class:label_up] = <class 1:0> weights: {25,985|9,276}
+
+
+Accuracy: 57.05882352941176
+
+========================================
+Date: 2020-03-27 00:00:00
+========================================
+
+if [att 18:eu_epu_mean_lag2] <= 163.31488888331404: 
+  if [att 12:clean_energy_etf_wilderhill_mean_lag2] <= 31.775454545454544: 
+    if [att 23:geopolitical_risk_threats_mean_lag1] <= 102.50898160067473: 
+      Leaf [class:label_up] = <class 2:1> weights: {4|16}
+    if [att 23:geopolitical_risk_threats_mean_lag1] > 102.50898160067473: 
+      Leaf [class:label_up] = <class 2:1> weights: {12|15}
+  if [att 12:clean_energy_etf_wilderhill_mean_lag2] > 31.775454545454544: 
+    if [att 31:attention_to_carbon_trading_mean_lag1] <= 0.10928817723480588: 
+      Leaf [class:label_up] = <class 2:1> weights: {3|7,03}
+    if [att 31:attention_to_carbon_trading_mean_lag1] > 0.10928817723480588: 
+      Leaf [class:label_up] = <class 1:0> weights: {10|2,97}
+if [att 18:eu_epu_mean_lag2] > 163.31488888331404: 
+  if [att 25:geopolitical_risk_events_mean_lag1] <= 141.01194575916637: 
+    if [att 26:geopolitical_risk_events_mean_lag2] <= 75.2296662417325: 
+      Leaf [class:label_up] = <class 2:1> weights: {6,267|7}
+    if [att 26:geopolitical_risk_events_mean_lag2] > 75.2296662417325: 
+      Leaf [class:label_up] = <class 1:0> weights: {5,733|0}
+  if [att 25:geopolitical_risk_events_mean_lag1] > 141.01194575916637: 
+    Leaf [class:label_up] = <class 1:0> weights: {25,985|10,276}
+
+
+Accuracy: 56.388888888888886
+
+========================================
+Date: 2020-08-14 00:00:00
+========================================
+
+if [att 18:eu_epu_mean_lag2] <= 163.31488888331404: 
+  if [att 12:clean_energy_etf_wilderhill_mean_lag2] <= 31.775454545454544: 
+    if [att 23:geopolitical_risk_threats_mean_lag1] <= 102.50898160067473: 
+      Leaf [class:label_up] = <class 2:1> weights: {4|16}
+    if [att 23:geopolitical_risk_threats_mean_lag1] > 102.50898160067473: 
+      Leaf [class:label_up] = <class 2:1> weights: {12|15}
+  if [att 12:clean_energy_etf_wilderhill_mean_lag2] > 31.775454545454544: 
+    if [att 31:attention_to_carbon_trading_mean_lag1] <= 0.10928817723480588: 
+      Leaf [class:label_up] = <class 2:1> weights: {3|7,03}
+    if [att 31:attention_to_carbon_trading_mean_lag1] > 0.10928817723480588: 
+      Leaf [class:label_up] = <class 1:0> weights: {10|2,97}
+if [att 18:eu_epu_mean_lag2] > 163.31488888331404: 
+  if [att 25:geopolitical_risk_events_mean_lag1] <= 141.01194575916637: 
+    if [att 26:geopolitical_risk_events_mean_lag2] <= 75.2296662417325: 
+      Leaf [class:label_up] = <class 2:1> weights: {13,267|18}
+    if [att 26:geopolitical_risk_events_mean_lag2] > 75.2296662417325: 
+      Leaf [class:label_up] = <class 1:0> weights: {6,733|1}
+  if [att 25:geopolitical_risk_events_mean_lag1] > 141.01194575916637: 
+    Leaf [class:label_up] = <class 1:0> weights: {25,985|10,276}
+
+
+Accuracy: 56.05263157894736
+
+========================================
+Date: 2021-01-01 00:00:00
+========================================
+
+if [att 18:eu_epu_mean_lag2] <= 163.31488888331404: 
+  if [att 12:clean_energy_etf_wilderhill_mean_lag2] <= 31.775454545454544: 
+    if [att 23:geopolitical_risk_threats_mean_lag1] <= 102.50898160067473: 
+      Leaf [class:label_up] = <class 2:1> weights: {4|16}
+    if [att 23:geopolitical_risk_threats_mean_lag1] > 102.50898160067473: 
+      Leaf [class:label_up] = <class 2:1> weights: {12|15}
+  if [att 12:clean_energy_etf_wilderhill_mean_lag2] > 31.775454545454544: 
+    if [att 31:attention_to_carbon_trading_mean_lag1] <= 0.10928817723480588: 
+      Leaf [class:label_up] = <class 2:1> weights: {3|7,03}
+    if [att 31:attention_to_carbon_trading_mean_lag1] > 0.10928817723480588: 
+      Leaf [class:label_up] = <class 1:0> weights: {10|2,97}
+if [att 18:eu_epu_mean_lag2] > 163.31488888331404: 
+  if [att 25:geopolitical_risk_events_mean_lag1] <= 141.01194575916637: 
+    if [att 26:geopolitical_risk_events_mean_lag2] <= 75.2296662417325: 
+      if [att 20:global_epu_mean_lag2] <= 339.68376444555895: 
+        Leaf [class:label_up] = <class 1:0> weights: {17|9,395}
+      if [att 20:global_epu_mean_lag2] > 339.68376444555895: 
+        Leaf [class:label_up] = <class 2:1> weights: {0|11,605}
+    if [att 26:geopolitical_risk_events_mean_lag2] > 75.2296662417325: 
+      Leaf [class:label_up] = <class 1:0> weights: {7,733|3}
+  if [att 25:geopolitical_risk_events_mean_lag1] > 141.01194575916637: 
+    Leaf [class:label_up] = <class 1:0> weights: {25,985|10,276}
+
+
+Accuracy: 55.75
+
+========================================
+Date: 2021-05-21 00:00:00
+========================================
+
+if [att 18:eu_epu_mean_lag2] <= 163.31488888331404: 
+  if [att 12:clean_energy_etf_wilderhill_mean_lag2] <= 31.775454545454544: 
+    if [att 23:geopolitical_risk_threats_mean_lag1] <= 102.50898160067473: 
+      Leaf [class:label_up] = <class 2:1> weights: {4|16}
+    if [att 23:geopolitical_risk_threats_mean_lag1] > 102.50898160067473: 
+      Leaf [class:label_up] = <class 2:1> weights: {12|15}
+  if [att 12:clean_energy_etf_wilderhill_mean_lag2] > 31.775454545454544: 
+    if [att 31:attention_to_carbon_trading_mean_lag1] <= 0.10928817723480588: 
+      Leaf [class:label_up] = <class 2:1> weights: {3|7,03}
+    if [att 31:attention_to_carbon_trading_mean_lag1] > 0.10928817723480588: 
+      Leaf [class:label_up] = <class 1:0> weights: {10|2,97}
+if [att 18:eu_epu_mean_lag2] > 163.31488888331404: 
+  if [att 25:geopolitical_risk_events_mean_lag1] <= 141.01194575916637: 
+    if [att 26:geopolitical_risk_events_mean_lag2] <= 75.2296662417325: 
+      if [att 20:global_epu_mean_lag2] <= 339.68376444555895: 
+        Leaf [class:label_up] = <class 1:0> weights: {24|19,395}
+      if [att 20:global_epu_mean_lag2] > 339.68376444555895: 
+        Leaf [class:label_up] = <class 2:1> weights: {0|11,605}
+    if [att 26:geopolitical_risk_events_mean_lag2] > 75.2296662417325: 
+      Leaf [class:label_up] = <class 1:0> weights: {7,733|6}
+  if [att 25:geopolitical_risk_events_mean_lag1] > 141.01194575916637: 
+    Leaf [class:label_up] = <class 1:0> weights: {25,985|10,276}
+
+
+Accuracy: 54.761904761904766
+
+========================================
+Date: 2021-10-08 00:00:00
+========================================
+
+if [att 18:eu_epu_mean_lag2] <= 163.31488888331404: 
+  if [att 12:clean_energy_etf_wilderhill_mean_lag2] <= 31.775454545454544: 
+    if [att 23:geopolitical_risk_threats_mean_lag1] <= 102.50898160067473: 
+      Leaf [class:label_up] = <class 2:1> weights: {4|16}
+    if [att 23:geopolitical_risk_threats_mean_lag1] > 102.50898160067473: 
+      Leaf [class:label_up] = <class 2:1> weights: {12|15}
+  if [att 12:clean_energy_etf_wilderhill_mean_lag2] > 31.775454545454544: 
+    if [att 31:attention_to_carbon_trading_mean_lag1] <= 0.10928817723480588: 
+      Leaf [class:label_up] = <class 2:1> weights: {3|7,03}
+    if [att 31:attention_to_carbon_trading_mean_lag1] > 0.10928817723480588: 
+      Leaf [class:label_up] = <class 1:0> weights: {15|5,97}
+if [att 18:eu_epu_mean_lag2] > 163.31488888331404: 
+  if [att 25:geopolitical_risk_events_mean_lag1] <= 141.01194575916637: 
+    if [att 26:geopolitical_risk_events_mean_lag2] <= 75.2296662417325: 
+      if [att 20:global_epu_mean_lag2] <= 339.68376444555895: 
+        Leaf [class:label_up] = <class 2:1> weights: {26|26,395}
+      if [att 20:global_epu_mean_lag2] > 339.68376444555895: 
+        Leaf [class:label_up] = <class 2:1> weights: {0|11,605}
+    if [att 26:geopolitical_risk_events_mean_lag2] > 75.2296662417325: 
+      Leaf [class:label_up] = <class 1:0> weights: {9,733|7}
+  if [att 25:geopolitical_risk_events_mean_lag1] > 141.01194575916637: 
+    Leaf [class:label_up] = <class 1:0> weights: {25,985|10,276}
+
+
+Accuracy: 54.77272727272727
+
+========================================
+Date: 2022-02-25 00:00:00
+========================================
+
+if [att 18:eu_epu_mean_lag2] <= 163.31488888331404: 
+  if [att 12:clean_energy_etf_wilderhill_mean_lag2] <= 31.775454545454544: 
+    if [att 23:geopolitical_risk_threats_mean_lag1] <= 102.50898160067473: 
+      Leaf [class:label_up] = <class 2:1> weights: {4|16}
+    if [att 23:geopolitical_risk_threats_mean_lag1] > 102.50898160067473: 
+      Leaf [class:label_up] = <class 2:1> weights: {12|15}
+  if [att 12:clean_energy_etf_wilderhill_mean_lag2] > 31.775454545454544: 
+    if [att 31:attention_to_carbon_trading_mean_lag1] <= 0.10928817723480588: 
+      Leaf [class:label_up] = <class 2:1> weights: {3|7,03}
+    if [att 31:attention_to_carbon_trading_mean_lag1] > 0.10928817723480588: 
+      Leaf [class:label_up] = <class 1:0> weights: {15|5,97}
+if [att 18:eu_epu_mean_lag2] > 163.31488888331404: 
+  if [att 25:geopolitical_risk_events_mean_lag1] <= 141.01194575916637: 
+    if [att 26:geopolitical_risk_events_mean_lag2] <= 75.2296662417325: 
+      if [att 20:global_epu_mean_lag2] <= 339.68376444555895: 
+        Leaf [class:label_up] = <class 2:1> weights: {31|37,395}
+      if [att 20:global_epu_mean_lag2] > 339.68376444555895: 
+        Leaf [class:label_up] = <class 2:1> weights: {0|11,605}
+    if [att 26:geopolitical_risk_events_mean_lag2] > 75.2296662417325: 
+      Leaf [class:label_up] = <class 1:0> weights: {11,733|9}
+  if [att 25:geopolitical_risk_events_mean_lag1] > 141.01194575916637: 
+    Leaf [class:label_up] = <class 1:0> weights: {25,985|10,276}
+
+
+Accuracy: 54.565217391304344
+
+========================================
+Date: 2022-07-15 00:00:00
+========================================
+
+if [att 18:eu_epu_mean_lag2] <= 163.31488888331404: 
+  if [att 12:clean_energy_etf_wilderhill_mean_lag2] <= 31.775454545454544: 
+    if [att 23:geopolitical_risk_threats_mean_lag1] <= 102.50898160067473: 
+      Leaf [class:label_up] = <class 2:1> weights: {4|16}
+    if [att 23:geopolitical_risk_threats_mean_lag1] > 102.50898160067473: 
+      Leaf [class:label_up] = <class 2:1> weights: {12|15}
+  if [att 12:clean_energy_etf_wilderhill_mean_lag2] > 31.775454545454544: 
+    if [att 31:attention_to_carbon_trading_mean_lag1] <= 0.10928817723480588: 
+      Leaf [class:label_up] = <class 2:1> weights: {3|7,03}
+    if [att 31:attention_to_carbon_trading_mean_lag1] > 0.10928817723480588: 
+      Leaf [class:label_up] = <class 1:0> weights: {15|5,97}
+if [att 18:eu_epu_mean_lag2] > 163.31488888331404: 
+  if [att 25:geopolitical_risk_events_mean_lag1] <= 141.01194575916637: 
+    if [att 26:geopolitical_risk_events_mean_lag2] <= 75.2296662417325: 
+      if [att 20:global_epu_mean_lag2] <= 339.68376444555895: 
+        Leaf [class:label_up] = <class 2:1> weights: {32|37,395}
+      if [att 20:global_epu_mean_lag2] > 339.68376444555895: 
+        Leaf [class:label_up] = <class 2:1> weights: {0|11,605}
+    if [att 26:geopolitical_risk_events_mean_lag2] > 75.2296662417325: 
+      Leaf [class:label_up] = <class 1:0> weights: {12,733|12}
+  if [att 25:geopolitical_risk_events_mean_lag1] > 141.01194575916637: 
+    Leaf [class:label_up] = <class 1:0> weights: {33,985|17,276}
+
+
+Accuracy: 53.95833333333333
+
+========================================
+Date: 2022-12-02 00:00:00
+========================================
+
+if [att 18:eu_epu_mean_lag2] <= 163.31488888331404: 
+  if [att 12:clean_energy_etf_wilderhill_mean_lag2] <= 31.775454545454544: 
+    if [att 23:geopolitical_risk_threats_mean_lag1] <= 102.50898160067473: 
+      Leaf [class:label_up] = <class 2:1> weights: {4|16}
+    if [att 23:geopolitical_risk_threats_mean_lag1] > 102.50898160067473: 
+      Leaf [class:label_up] = <class 2:1> weights: {12|15}
+  if [att 12:clean_energy_etf_wilderhill_mean_lag2] > 31.775454545454544: 
+    if [att 31:attention_to_carbon_trading_mean_lag1] <= 0.10928817723480588: 
+      Leaf [class:label_up] = <class 2:1> weights: {3|7,03}
+    if [att 31:attention_to_carbon_trading_mean_lag1] > 0.10928817723480588: 
+      Leaf [class:label_up] = <class 1:0> weights: {15|5,97}
+if [att 18:eu_epu_mean_lag2] > 163.31488888331404: 
+  if [att 25:geopolitical_risk_events_mean_lag1] <= 141.01194575916637: 
+    if [att 26:geopolitical_risk_events_mean_lag2] <= 75.2296662417325: 
+      if [att 20:global_epu_mean_lag2] <= 339.68376444555895: 
+        Leaf [class:label_up] = <class 2:1> weights: {32|37,395}
+      if [att 20:global_epu_mean_lag2] > 339.68376444555895: 
+        Leaf [class:label_up] = <class 2:1> weights: {0|11,605}
+    if [att 26:geopolitical_risk_events_mean_lag2] > 75.2296662417325: 
+      Leaf [class:label_up] = <class 1:0> weights: {22,733|20}
+  if [att 25:geopolitical_risk_events_mean_lag1] > 141.01194575916637: 
+    Leaf [class:label_up] = <class 1:0> weights: {34,985|18,276}
+
+
+Accuracy: 53.400000000000006
+
+========================================
+Date: 2023-04-21 00:00:00
+========================================
+
+if [att 18:eu_epu_mean_lag2] <= 163.31488888331404: 
+  if [att 12:clean_energy_etf_wilderhill_mean_lag2] <= 31.775454545454544: 
+    if [att 23:geopolitical_risk_threats_mean_lag1] <= 102.50898160067473: 
+      Leaf [class:label_up] = <class 2:1> weights: {4|16}
+    if [att 23:geopolitical_risk_threats_mean_lag1] > 102.50898160067473: 
+      Leaf [class:label_up] = <class 2:1> weights: {12|15}
+  if [att 12:clean_energy_etf_wilderhill_mean_lag2] > 31.775454545454544: 
+    if [att 31:attention_to_carbon_trading_mean_lag1] <= 0.10928817723480588: 
+      Leaf [class:label_up] = <class 2:1> weights: {3|7,03}
+    if [att 31:attention_to_carbon_trading_mean_lag1] > 0.10928817723480588: 
+      Leaf [class:label_up] = <class 1:0> weights: {15|5,97}
+if [att 18:eu_epu_mean_lag2] > 163.31488888331404: 
+  if [att 25:geopolitical_risk_events_mean_lag1] <= 141.01194575916637: 
+    if [att 26:geopolitical_risk_events_mean_lag2] <= 75.2296662417325: 
+      if [att 20:global_epu_mean_lag2] <= 339.68376444555895: 
+        Leaf [class:label_up] = <class 2:1> weights: {34|38,395}
+      if [att 20:global_epu_mean_lag2] > 339.68376444555895: 
+        Leaf [class:label_up] = <class 2:1> weights: {0|11,605}
+    if [att 26:geopolitical_risk_events_mean_lag2] > 75.2296662417325: 
+      Leaf [class:label_up] = <class 1:0> weights: {29,733|29}
+  if [att 25:geopolitical_risk_events_mean_lag1] > 141.01194575916637: 
+    Leaf [class:label_up] = <class 1:0> weights: {35,985|18,276}
+
+
+Accuracy: 52.69230769230769
+
+========================================
+Date: 2023-09-08 00:00:00
+========================================
+
+if [att 18:eu_epu_mean_lag2] <= 163.31488888331404: 
+  if [att 12:clean_energy_etf_wilderhill_mean_lag2] <= 31.775454545454544: 
+    if [att 23:geopolitical_risk_threats_mean_lag1] <= 102.50898160067473: 
+      Leaf [class:label_up] = <class 2:1> weights: {4|16}
+    if [att 23:geopolitical_risk_threats_mean_lag1] > 102.50898160067473: 
+      Leaf [class:label_up] = <class 2:1> weights: {12|15}
+  if [att 12:clean_energy_etf_wilderhill_mean_lag2] > 31.775454545454544: 
+    if [att 31:attention_to_carbon_trading_mean_lag1] <= 0.10928817723480588: 
+      Leaf [class:label_up] = <class 2:1> weights: {3|7,03}
+    if [att 31:attention_to_carbon_trading_mean_lag1] > 0.10928817723480588: 
+      Leaf [class:label_up] = <class 1:0> weights: {15|5,97}
+if [att 18:eu_epu_mean_lag2] > 163.31488888331404: 
+  if [att 25:geopolitical_risk_events_mean_lag1] <= 141.01194575916637: 
+    if [att 26:geopolitical_risk_events_mean_lag2] <= 75.2296662417325: 
+      if [att 20:global_epu_mean_lag2] <= 339.68376444555895: 
+        Leaf [class:label_up] = <class 2:1> weights: {35|38,395}
+      if [att 20:global_epu_mean_lag2] > 339.68376444555895: 
+        Leaf [class:label_up] = <class 2:1> weights: {0|11,605}
+    if [att 26:geopolitical_risk_events_mean_lag2] > 75.2296662417325: 
+      Leaf [class:label_up] = <class 1:0> weights: {42,733|35}
+  if [att 25:geopolitical_risk_events_mean_lag1] > 141.01194575916637: 
+    Leaf [class:label_up] = <class 1:0> weights: {35,985|18,276}
+
+
+Accuracy: 53.148148148148145
+
+========================================
+Date: 2024-01-26 00:00:00
+========================================
+
+if [att 18:eu_epu_mean_lag2] <= 163.31488888331404: 
+  if [att 12:clean_energy_etf_wilderhill_mean_lag2] <= 31.775454545454544: 
+    if [att 23:geopolitical_risk_threats_mean_lag1] <= 102.50898160067473: 
+      Leaf [class:label_up] = <class 2:1> weights: {4|16}
+    if [att 23:geopolitical_risk_threats_mean_lag1] > 102.50898160067473: 
+      Leaf [class:label_up] = <class 2:1> weights: {12|15}
+  if [att 12:clean_energy_etf_wilderhill_mean_lag2] > 31.775454545454544: 
+    if [att 31:attention_to_carbon_trading_mean_lag1] <= 0.10928817723480588: 
+      Leaf [class:label_up] = <class 2:1> weights: {3|7,03}
+    if [att 31:attention_to_carbon_trading_mean_lag1] > 0.10928817723480588: 
+      Leaf [class:label_up] = <class 1:0> weights: {15|5,97}
+if [att 18:eu_epu_mean_lag2] > 163.31488888331404: 
+  if [att 25:geopolitical_risk_events_mean_lag1] <= 141.01194575916637: 
+    if [att 26:geopolitical_risk_events_mean_lag2] <= 75.2296662417325: 
+      if [att 20:global_epu_mean_lag2] <= 339.68376444555895: 
+        Leaf [class:label_up] = <class 1:0> weights: {39|38,395}
+      if [att 20:global_epu_mean_lag2] > 339.68376444555895: 
+        Leaf [class:label_up] = <class 2:1> weights: {0|11,605}
+    if [att 26:geopolitical_risk_events_mean_lag2] > 75.2296662417325: 
+      Leaf [class:label_up] = <class 1:0> weights: {42,733|37}
+  if [att 25:geopolitical_risk_events_mean_lag1] > 141.01194575916637: 
+    Leaf [class:label_up] = <class 1:0> weights: {46,985|21,276}
+
+
+Accuracy: 53.92857142857142
+
+========================================
+Date: 2024-06-14 00:00:00
+========================================
+
+if [att 18:eu_epu_mean_lag2] <= 163.31488888331404: 
+  if [att 12:clean_energy_etf_wilderhill_mean_lag2] <= 31.775454545454544: 
+    if [att 23:geopolitical_risk_threats_mean_lag1] <= 102.50898160067473: 
+      Leaf [class:label_up] = <class 2:1> weights: {4|16}
+    if [att 23:geopolitical_risk_threats_mean_lag1] > 102.50898160067473: 
+      Leaf [class:label_up] = <class 2:1> weights: {12|15}
+  if [att 12:clean_energy_etf_wilderhill_mean_lag2] > 31.775454545454544: 
+    if [att 31:attention_to_carbon_trading_mean_lag1] <= 0.10928817723480588: 
+      Leaf [class:label_up] = <class 2:1> weights: {3|7,03}
+    if [att 31:attention_to_carbon_trading_mean_lag1] > 0.10928817723480588: 
+      Leaf [class:label_up] = <class 1:0> weights: {15|5,97}
+if [att 18:eu_epu_mean_lag2] > 163.31488888331404: 
+  if [att 25:geopolitical_risk_events_mean_lag1] <= 141.01194575916637: 
+    if [att 26:geopolitical_risk_events_mean_lag2] <= 75.2296662417325: 
+      if [att 20:global_epu_mean_lag2] <= 339.68376444555895: 
+        Leaf [class:label_up] = <class 1:0> weights: {39|38,395}
+      if [att 20:global_epu_mean_lag2] > 339.68376444555895: 
+        Leaf [class:label_up] = <class 2:1> weights: {0|11,605}
+    if [att 26:geopolitical_risk_events_mean_lag2] > 75.2296662417325: 
+      Leaf [class:label_up] = <class 1:0> weights: {44,733|39}
+  if [att 25:geopolitical_risk_events_mean_lag1] > 141.01194575916637: 
+    Leaf [class:label_up] = <class 1:0> weights: {55,985|28,276}
+
+
+Accuracy: 53.79310344827586
+
+========================================
+Date: 2024-11-01 00:00:00
+========================================
+
+if [att 18:eu_epu_mean_lag2] <= 163.31488888331404: 
+  if [att 12:clean_energy_etf_wilderhill_mean_lag2] <= 31.775454545454544: 
+    if [att 23:geopolitical_risk_threats_mean_lag1] <= 102.50898160067473: 
+      Leaf [class:label_up] = <class 2:1> weights: {4|16}
+    if [att 23:geopolitical_risk_threats_mean_lag1] > 102.50898160067473: 
+      Leaf [class:label_up] = <class 2:1> weights: {12|15}
+  if [att 12:clean_energy_etf_wilderhill_mean_lag2] > 31.775454545454544: 
+    if [att 31:attention_to_carbon_trading_mean_lag1] <= 0.10928817723480588: 
+      Leaf [class:label_up] = <class 2:1> weights: {3|7,03}
+    if [att 31:attention_to_carbon_trading_mean_lag1] > 0.10928817723480588: 
+      Leaf [class:label_up] = <class 1:0> weights: {15|5,97}
+if [att 18:eu_epu_mean_lag2] > 163.31488888331404: 
+  if [att 25:geopolitical_risk_events_mean_lag1] <= 141.01194575916637: 
+    if [att 26:geopolitical_risk_events_mean_lag2] <= 75.2296662417325: 
+      if [att 20:global_epu_mean_lag2] <= 339.68376444555895: 
+        Leaf [class:label_up] = <class 1:0> weights: {39|38,395}
+      if [att 20:global_epu_mean_lag2] > 339.68376444555895: 
+        Leaf [class:label_up] = <class 2:1> weights: {0|11,605}
+    if [att 26:geopolitical_risk_events_mean_lag2] > 75.2296662417325: 
+      Leaf [class:label_up] = <class 1:0> weights: {49,733|45}
+  if [att 25:geopolitical_risk_events_mean_lag1] > 141.01194575916637: 
+    Leaf [class:label_up] = <class 1:0> weights: {60,985|32,276}
+
+
+Accuracy: 53.666666666666664
+
+========================================
+Date: 2025-03-21 00:00:00
+========================================
+
+if [att 18:eu_epu_mean_lag2] <= 163.31488888331404: 
+  if [att 12:clean_energy_etf_wilderhill_mean_lag2] <= 31.775454545454544: 
+    if [att 23:geopolitical_risk_threats_mean_lag1] <= 102.50898160067473: 
+      Leaf [class:label_up] = <class 2:1> weights: {4|16}
+    if [att 23:geopolitical_risk_threats_mean_lag1] > 102.50898160067473: 
+      Leaf [class:label_up] = <class 2:1> weights: {12|15}
+  if [att 12:clean_energy_etf_wilderhill_mean_lag2] > 31.775454545454544: 
+    if [att 31:attention_to_carbon_trading_mean_lag1] <= 0.10928817723480588: 
+      Leaf [class:label_up] = <class 2:1> weights: {3|7,03}
+    if [att 31:attention_to_carbon_trading_mean_lag1] > 0.10928817723480588: 
+      Leaf [class:label_up] = <class 1:0> weights: {15|5,97}
+if [att 18:eu_epu_mean_lag2] > 163.31488888331404: 
+  if [att 25:geopolitical_risk_events_mean_lag1] <= 141.01194575916637: 
+    if [att 26:geopolitical_risk_events_mean_lag2] <= 75.2296662417325: 
+      if [att 20:global_epu_mean_lag2] <= 339.68376444555895: 
+        Leaf [class:label_up] = <class 2:1> weights: {39|39,395}
+      if [att 20:global_epu_mean_lag2] > 339.68376444555895: 
+        Leaf [class:label_up] = <class 2:1> weights: {0|11,605}
+    if [att 26:geopolitical_risk_events_mean_lag2] > 75.2296662417325: 
+      Leaf [class:label_up] = <class 1:0> weights: {54,733|47}
+  if [att 25:geopolitical_risk_events_mean_lag1] > 141.01194575916637: 
+    Leaf [class:label_up] = <class 1:0> weights: {66,985|38,276}
+
+
+Accuracy: 53.387096774193544

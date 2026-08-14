@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stream Learner Tree Viewer</title>
+  <link rel="stylesheet" href="https://unpkg.com/vis-network/styles/vis-network.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="app-shell">
+    <header class="page-header">
+      <div>
+        <h1>Stream Learner Tree Viewer</h1>
+        <p>Interactive visualization of HAT and SoHoT snapshots over time.</p>
+      </div>
+    </header>
+
+    <section class="panel controls-panel">
+      <label class="field">
+        <span>Result file</span>
+        <select id="file-select" disabled>
+          <option>Loading result files…</option>
+        </select>
+      </label>
+
+      <div id="time-controls" class="time-controls" hidden>
+        <button id="back-button" class="arrow-button" type="button" aria-label="Previous snapshot">◀</button>
+
+        <div class="slider-area">
+          <div class="slider-heading">
+            <label for="time-slider">Over time</label>
+            <output id="date-output" for="time-slider"></output>
+          </div>
+          <input id="time-slider" type="range" min="0" max="0" value="0" step="1">
+        </div>
+
+        <button id="forward-button" class="arrow-button" type="button" aria-label="Next snapshot">▶</button>
+      </div>
+
+      <div id="status" class="status" role="status" aria-live="polite"></div>
+    </section>
+
+    <section class="metrics">
+      <article class="metric">
+        <span>Tree type</span>
+        <strong id="tree-type">–</strong>
+      </article>
+      <article class="metric">
+        <span>Accuracy</span>
+        <strong id="accuracy">–</strong>
+      </article>
+      <article class="metric">
+        <span>Tree nodes</span>
+        <strong id="node-count">–</strong>
+      </article>
+    </section>
+
+    <section class="panel tree-panel">
+      <div id="tree"></div>
+    </section>
+
+    <details class="panel source-panel">
+      <summary>Show original tree output</summary>
+      <pre id="source-output"></pre>
+    </details>
+  </main>
+
+  <script src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

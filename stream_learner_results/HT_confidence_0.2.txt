@@ -1,0 +1,426 @@
+
+========================================
+Date: 2013-09-20 00:00:00
+========================================
+
+Leaf [class:label_up] = <class 2:1> weights: {5|15}
+
+
+Accuracy: 70.0
+
+========================================
+Date: 2014-02-07 00:00:00
+========================================
+
+if [att 18:eu_epu_mean_lag2] <= 165.09718074706365: 
+  Leaf [class:label_up] = <class 2:1> weights: {3|17,168}
+if [att 18:eu_epu_mean_lag2] > 165.09718074706365: 
+  Leaf [class:label_up] = <class 1:0> weights: {12|7,832}
+
+
+Accuracy: 57.49999999999999
+
+========================================
+Date: 2014-06-27 00:00:00
+========================================
+
+if [att 18:eu_epu_mean_lag2] <= 165.09718074706365: 
+  Leaf [class:label_up] = <class 2:1> weights: {12|28,168}
+if [att 18:eu_epu_mean_lag2] > 165.09718074706365: 
+  Leaf [class:label_up] = <class 1:0> weights: {12|7,832}
+
+
+Accuracy: 53.333333333333336
+
+========================================
+Date: 2014-11-14 00:00:00
+========================================
+
+if [att 18:eu_epu_mean_lag2] <= 165.09718074706365: 
+  Leaf [class:label_up] = <class 2:1> weights: {18|37,168}
+if [att 18:eu_epu_mean_lag2] > 165.09718074706365: 
+  Leaf [class:label_up] = <class 1:0> weights: {14|10,832}
+
+
+Accuracy: 53.75
+
+========================================
+Date: 2015-04-03 00:00:00
+========================================
+
+if [att 18:eu_epu_mean_lag2] <= 165.09718074706365: 
+  Leaf [class:label_up] = <class 2:1> weights: {23|43,168}
+if [att 18:eu_epu_mean_lag2] > 165.09718074706365: 
+  Leaf [class:label_up] = <class 1:0> weights: {18|15,832}
+
+
+Accuracy: 52.0
+
+========================================
+Date: 2015-08-21 00:00:00
+========================================
+
+if [att 18:eu_epu_mean_lag2] <= 165.09718074706365: 
+  Leaf [class:label_up] = <class 2:1> weights: {25|48,168}
+if [att 18:eu_epu_mean_lag2] > 165.09718074706365: 
+  Leaf [class:label_up] = <class 2:1> weights: {23|23,832}
+
+
+Accuracy: 50.83333333333333
+
+========================================
+Date: 2016-01-08 00:00:00
+========================================
+
+if [att 18:eu_epu_mean_lag2] <= 165.09718074706365: 
+  Leaf [class:label_up] = <class 2:1> weights: {34|54,168}
+if [att 18:eu_epu_mean_lag2] > 165.09718074706365: 
+  Leaf [class:label_up] = <class 2:1> weights: {24|27,832}
+
+
+Accuracy: 50.0
+
+========================================
+Date: 2016-05-27 00:00:00
+========================================
+
+if [att 18:eu_epu_mean_lag2] <= 165.09718074706365: 
+  Leaf [class:label_up] = <class 2:1> weights: {36|54,168}
+if [att 18:eu_epu_mean_lag2] > 165.09718074706365: 
+  Leaf [class:label_up] = <class 2:1> weights: {33|36,832}
+
+
+Accuracy: 48.75
+
+========================================
+Date: 2016-10-14 00:00:00
+========================================
+
+if [att 18:eu_epu_mean_lag2] <= 165.09718074706365: 
+  Leaf [class:label_up] = <class 2:1> weights: {36|54,168}
+if [att 18:eu_epu_mean_lag2] > 165.09718074706365: 
+  Leaf [class:label_up] = <class 2:1> weights: {42|47,832}
+
+
+Accuracy: 49.44444444444444
+
+========================================
+Date: 2017-03-03 00:00:00
+========================================
+
+if [att 18:eu_epu_mean_lag2] <= 165.09718074706365: 
+  Leaf [class:label_up] = <class 2:1> weights: {36|54,168}
+if [att 18:eu_epu_mean_lag2] > 165.09718074706365: 
+  Leaf [class:label_up] = <class 2:1> weights: {53|56,832}
+
+
+Accuracy: 48.5
+
+========================================
+Date: 2017-07-21 00:00:00
+========================================
+
+if [att 18:eu_epu_mean_lag2] <= 165.09718074706365: 
+  Leaf [class:label_up] = <class 2:1> weights: {36|54,168}
+if [att 18:eu_epu_mean_lag2] > 165.09718074706365: 
+  Leaf [class:label_up] = <class 1:0> weights: {65|64,832}
+
+
+Accuracy: 49.09090909090909
+
+========================================
+Date: 2017-12-08 00:00:00
+========================================
+
+if [att 18:eu_epu_mean_lag2] <= 165.09718074706365: 
+  Leaf [class:label_up] = <class 2:1> weights: {37|58,168}
+if [att 18:eu_epu_mean_lag2] > 165.09718074706365: 
+  Leaf [class:label_up] = <class 2:1> weights: {70|74,832}
+
+
+Accuracy: 50.0
+
+========================================
+Date: 2018-04-27 00:00:00
+========================================
+
+if [att 18:eu_epu_mean_lag2] <= 165.09718074706365: 
+  Leaf [class:label_up] = <class 2:1> weights: {38|62,168}
+if [att 18:eu_epu_mean_lag2] > 165.09718074706365: 
+  Leaf [class:label_up] = <class 2:1> weights: {76|83,832}
+
+
+Accuracy: 50.76923076923077
+
+========================================
+Date: 2018-09-14 00:00:00
+========================================
+
+if [att 18:eu_epu_mean_lag2] <= 165.09718074706365: 
+  Leaf [class:label_up] = <class 2:1> weights: {39|64,168}
+if [att 18:eu_epu_mean_lag2] > 165.09718074706365: 
+  Leaf [class:label_up] = <class 2:1> weights: {79|97,832}
+
+
+Accuracy: 52.5
+
+========================================
+Date: 2019-02-01 00:00:00
+========================================
+
+if [att 18:eu_epu_mean_lag2] <= 165.09718074706365: 
+  Leaf [class:label_up] = <class 2:1> weights: {39|64,168}
+if [att 18:eu_epu_mean_lag2] > 165.09718074706365: 
+  Leaf [class:label_up] = <class 2:1> weights: {87|109,832}
+
+
+Accuracy: 52.33333333333333
+
+========================================
+Date: 2019-06-21 00:00:00
+========================================
+
+if [att 18:eu_epu_mean_lag2] <= 165.09718074706365: 
+  Leaf [class:label_up] = <class 2:1> weights: {39|64,168}
+if [att 18:eu_epu_mean_lag2] > 165.09718074706365: 
+  Leaf [class:label_up] = <class 2:1> weights: {96|120,832}
+
+
+Accuracy: 52.81249999999999
+
+========================================
+Date: 2019-11-08 00:00:00
+========================================
+
+if [att 18:eu_epu_mean_lag2] <= 165.09718074706365: 
+  Leaf [class:label_up] = <class 2:1> weights: {39|64,168}
+if [att 18:eu_epu_mean_lag2] > 165.09718074706365: 
+  Leaf [class:label_up] = <class 2:1> weights: {106|130,832}
+
+
+Accuracy: 52.94117647058824
+
+========================================
+Date: 2020-03-27 00:00:00
+========================================
+
+if [att 18:eu_epu_mean_lag2] <= 165.09718074706365: 
+  Leaf [class:label_up] = <class 2:1> weights: {39|64,168}
+if [att 18:eu_epu_mean_lag2] > 165.09718074706365: 
+  Leaf [class:label_up] = <class 2:1> weights: {118|138,832}
+
+
+Accuracy: 53.333333333333336
+
+========================================
+Date: 2020-08-14 00:00:00
+========================================
+
+if [att 18:eu_epu_mean_lag2] <= 165.09718074706365: 
+  Leaf [class:label_up] = <class 2:1> weights: {39|64,168}
+if [att 18:eu_epu_mean_lag2] > 165.09718074706365: 
+  Leaf [class:label_up] = <class 2:1> weights: {126|150,832}
+
+
+Accuracy: 52.368421052631575
+
+========================================
+Date: 2021-01-01 00:00:00
+========================================
+
+if [att 18:eu_epu_mean_lag2] <= 165.09718074706365: 
+  Leaf [class:label_up] = <class 2:1> weights: {39|64,168}
+if [att 18:eu_epu_mean_lag2] > 165.09718074706365: 
+  Leaf [class:label_up] = <class 2:1> weights: {134|162,832}
+
+
+Accuracy: 52.25
+
+========================================
+Date: 2021-05-21 00:00:00
+========================================
+
+if [att 18:eu_epu_mean_lag2] <= 165.09718074706365: 
+  Leaf [class:label_up] = <class 2:1> weights: {39|64,168}
+if [att 18:eu_epu_mean_lag2] > 165.09718074706365: 
+  Leaf [class:label_up] = <class 2:1> weights: {141|175,832}
+
+
+Accuracy: 52.61904761904762
+
+========================================
+Date: 2021-10-08 00:00:00
+========================================
+
+if [att 18:eu_epu_mean_lag2] <= 165.09718074706365: 
+  Leaf [class:label_up] = <class 2:1> weights: {44|67,168}
+if [att 18:eu_epu_mean_lag2] > 165.09718074706365: 
+  if [att 20:global_epu_mean_lag2] <= 334.3528059127794: 
+    Leaf [class:label_up] = <class 2:1> weights: {133|167,57}
+  if [att 20:global_epu_mean_lag2] > 334.3528059127794: 
+    Leaf [class:label_up] = <class 2:1> weights: {0|8,43}
+
+
+Accuracy: 52.5
+
+========================================
+Date: 2022-02-25 00:00:00
+========================================
+
+if [att 18:eu_epu_mean_lag2] <= 165.09718074706365: 
+  Leaf [class:label_up] = <class 2:1> weights: {44|67,168}
+if [att 18:eu_epu_mean_lag2] > 165.09718074706365: 
+  if [att 20:global_epu_mean_lag2] <= 334.3528059127794: 
+    if [att 11:clean_energy_etf_wilderhill_mean_lag1] <= 82.95945454545455: 
+      Leaf [class:label_up] = <class 2:1> weights: {9|9,24}
+    if [att 11:clean_energy_etf_wilderhill_mean_lag1] > 82.95945454545455: 
+      Leaf [class:label_up] = <class 2:1> weights: {0|5,76}
+  if [att 20:global_epu_mean_lag2] > 334.3528059127794: 
+    Leaf [class:label_up] = <class 2:1> weights: {0|8,43}
+
+
+Accuracy: 52.391304347826086
+
+========================================
+Date: 2022-07-15 00:00:00
+========================================
+
+if [att 18:eu_epu_mean_lag2] <= 165.09718074706365: 
+  Leaf [class:label_up] = <class 2:1> weights: {44|67,168}
+if [att 18:eu_epu_mean_lag2] > 165.09718074706365: 
+  if [att 20:global_epu_mean_lag2] <= 334.3528059127794: 
+    if [att 11:clean_energy_etf_wilderhill_mean_lag1] <= 82.95945454545455: 
+      Leaf [class:label_up] = <class 2:1> weights: {19|19,24}
+    if [att 11:clean_energy_etf_wilderhill_mean_lag1] > 82.95945454545455: 
+      Leaf [class:label_up] = <class 2:1> weights: {0|5,76}
+  if [att 20:global_epu_mean_lag2] > 334.3528059127794: 
+    Leaf [class:label_up] = <class 2:1> weights: {0|8,43}
+
+
+Accuracy: 52.083333333333336
+
+========================================
+Date: 2022-12-02 00:00:00
+========================================
+
+if [att 18:eu_epu_mean_lag2] <= 165.09718074706365: 
+  Leaf [class:label_up] = <class 2:1> weights: {44|67,168}
+if [att 18:eu_epu_mean_lag2] > 165.09718074706365: 
+  if [att 20:global_epu_mean_lag2] <= 334.3528059127794: 
+    if [att 11:clean_energy_etf_wilderhill_mean_lag1] <= 82.95945454545455: 
+      Leaf [class:label_up] = <class 1:0> weights: {30|28,24}
+    if [att 11:clean_energy_etf_wilderhill_mean_lag1] > 82.95945454545455: 
+      Leaf [class:label_up] = <class 2:1> weights: {0|5,76}
+  if [att 20:global_epu_mean_lag2] > 334.3528059127794: 
+    Leaf [class:label_up] = <class 2:1> weights: {0|8,43}
+
+
+Accuracy: 51.800000000000004
+
+========================================
+Date: 2023-04-21 00:00:00
+========================================
+
+if [att 18:eu_epu_mean_lag2] <= 165.09718074706365: 
+  Leaf [class:label_up] = <class 2:1> weights: {44|67,168}
+if [att 18:eu_epu_mean_lag2] > 165.09718074706365: 
+  if [att 20:global_epu_mean_lag2] <= 334.3528059127794: 
+    if [att 11:clean_energy_etf_wilderhill_mean_lag1] <= 82.95945454545455: 
+      Leaf [class:label_up] = <class 1:0> weights: {40|38,24}
+    if [att 11:clean_energy_etf_wilderhill_mean_lag1] > 82.95945454545455: 
+      Leaf [class:label_up] = <class 2:1> weights: {0|5,76}
+  if [att 20:global_epu_mean_lag2] > 334.3528059127794: 
+    Leaf [class:label_up] = <class 2:1> weights: {0|8,43}
+
+
+Accuracy: 51.53846153846153
+
+========================================
+Date: 2023-09-08 00:00:00
+========================================
+
+if [att 18:eu_epu_mean_lag2] <= 165.09718074706365: 
+  Leaf [class:label_up] = <class 2:1> weights: {44|67,168}
+if [att 18:eu_epu_mean_lag2] > 165.09718074706365: 
+  if [att 20:global_epu_mean_lag2] <= 334.3528059127794: 
+    if [att 11:clean_energy_etf_wilderhill_mean_lag1] <= 82.95945454545455: 
+      Leaf [class:label_up] = <class 1:0> weights: {54|44,24}
+    if [att 11:clean_energy_etf_wilderhill_mean_lag1] > 82.95945454545455: 
+      Leaf [class:label_up] = <class 2:1> weights: {0|5,76}
+  if [att 20:global_epu_mean_lag2] > 334.3528059127794: 
+    Leaf [class:label_up] = <class 2:1> weights: {0|8,43}
+
+
+Accuracy: 52.03703703703704
+
+========================================
+Date: 2024-01-26 00:00:00
+========================================
+
+if [att 18:eu_epu_mean_lag2] <= 165.09718074706365: 
+  Leaf [class:label_up] = <class 2:1> weights: {44|67,168}
+if [att 18:eu_epu_mean_lag2] > 165.09718074706365: 
+  if [att 20:global_epu_mean_lag2] <= 334.3528059127794: 
+    if [att 11:clean_energy_etf_wilderhill_mean_lag1] <= 82.95945454545455: 
+      Leaf [class:label_up] = <class 1:0> weights: {69|49,24}
+    if [att 11:clean_energy_etf_wilderhill_mean_lag1] > 82.95945454545455: 
+      Leaf [class:label_up] = <class 2:1> weights: {0|5,76}
+  if [att 20:global_epu_mean_lag2] > 334.3528059127794: 
+    Leaf [class:label_up] = <class 2:1> weights: {0|8,43}
+
+
+Accuracy: 52.85714285714286
+
+========================================
+Date: 2024-06-14 00:00:00
+========================================
+
+if [att 18:eu_epu_mean_lag2] <= 165.09718074706365: 
+  Leaf [class:label_up] = <class 2:1> weights: {44|67,168}
+if [att 18:eu_epu_mean_lag2] > 165.09718074706365: 
+  if [att 20:global_epu_mean_lag2] <= 334.3528059127794: 
+    if [att 11:clean_energy_etf_wilderhill_mean_lag1] <= 82.95945454545455: 
+      Leaf [class:label_up] = <class 1:0> weights: {80|58,24}
+    if [att 11:clean_energy_etf_wilderhill_mean_lag1] > 82.95945454545455: 
+      Leaf [class:label_up] = <class 2:1> weights: {0|5,76}
+  if [att 20:global_epu_mean_lag2] > 334.3528059127794: 
+    Leaf [class:label_up] = <class 2:1> weights: {0|8,43}
+
+
+Accuracy: 52.93103448275862
+
+========================================
+Date: 2024-11-01 00:00:00
+========================================
+
+if [att 18:eu_epu_mean_lag2] <= 165.09718074706365: 
+  Leaf [class:label_up] = <class 2:1> weights: {44|67,168}
+if [att 18:eu_epu_mean_lag2] > 165.09718074706365: 
+  if [att 20:global_epu_mean_lag2] <= 334.3528059127794: 
+    if [att 11:clean_energy_etf_wilderhill_mean_lag1] <= 82.95945454545455: 
+      Leaf [class:label_up] = <class 1:0> weights: {90|68,24}
+    if [att 11:clean_energy_etf_wilderhill_mean_lag1] > 82.95945454545455: 
+      Leaf [class:label_up] = <class 2:1> weights: {0|5,76}
+  if [att 20:global_epu_mean_lag2] > 334.3528059127794: 
+    Leaf [class:label_up] = <class 2:1> weights: {0|8,43}
+
+
+Accuracy: 52.83333333333333
+
+========================================
+Date: 2025-03-21 00:00:00
+========================================
+
+if [att 18:eu_epu_mean_lag2] <= 165.09718074706365: 
+  Leaf [class:label_up] = <class 2:1> weights: {44|67,168}
+if [att 18:eu_epu_mean_lag2] > 165.09718074706365: 
+  if [att 20:global_epu_mean_lag2] <= 334.3528059127794: 
+    if [att 11:clean_energy_etf_wilderhill_mean_lag1] <= 82.95945454545455: 
+      Leaf [class:label_up] = <class 1:0> weights: {101|77,24}
+    if [att 11:clean_energy_etf_wilderhill_mean_lag1] > 82.95945454545455: 
+      Leaf [class:label_up] = <class 2:1> weights: {0|5,76}
+  if [att 20:global_epu_mean_lag2] > 334.3528059127794: 
+    Leaf [class:label_up] = <class 2:1> weights: {0|8,43}
+
+
+Accuracy: 52.58064516129032
